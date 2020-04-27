@@ -1,6 +1,6 @@
 # Generative Typography
 
-![](./images/banner.gif)
+<img src="https://github.com/kyeah/generative-typography/blob/master/images/banner.gif" alt="" style="max-width:100%;">
 
 - Type@Cooper Public Workshop Summer 2020
 - 6:30–9:30pm on Tuesdays, June 2nd to Aug 4th
