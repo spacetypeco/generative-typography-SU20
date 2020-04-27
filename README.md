@@ -1,6 +1,6 @@
 # Generative Typography
 
-![](/images/banner.gif)
+![](./images/banner.gif)
 
 - Type@Cooper Public Workshop Summer 2020
 - 6:30–9:30pm on Tuesdays, June 2nd to Aug 4th
