@@ -87,7 +87,6 @@ Date: June 4th, 2020
 
 * [Generative Design](http://www.generative-gestaltung.de/2/): Part 2 (Shapes)
 * [Eloquent Javascript: Program Structure](https://eloquentjavascript.net/02_program_structure.html)
-* [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
 
 ## Section 2: Art, Data, and Grids
 Date: June 11th, 2020
@@ -97,6 +96,13 @@ Date: June 17th, 2020
 
 ## Section 4: Glitch Art
 Date: June 24th, 2020
+
+### Readings
+
+
+### Additional Resources
+* [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
+
 
 ## Section 5: Movement and Animation
 Date: July 1st, 2020
