@@ -54,7 +54,7 @@ Subject to adjustment.
 |-----|----|-----------|------
 |1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Make a brush
 |2|Art, Data, and Grids||Grid-inspired composition
-|3|Flexible Layouts||Concrete peotry composition
+|3|Flexible Layouts||Concrete poetry composition
 |4|Glitch Art||Glitch Art-inspired composition
 |5|Movement and Animation||Mini Project Ideation
 |6|1:1s — Ideation and Planning||Mini Project Draft
@@ -67,9 +67,13 @@ Subject to adjustment.
 
 ## Section 1: Overview and Conceptualizing Programs
 Date: June 4th, 2020
-
+* Roundtable Intros
 ### Lecture
-
+* Semester Overview
+* Examples of Type in Generative Mediums
+	* Font as String
+	* Font as Image
+	* Font as Vector Coordinates
 ### Technical Demo:
 * **What is a Program?**
 	* Primitives and Conditionals
@@ -78,10 +82,9 @@ Date: June 4th, 2020
 	* Reading External Data
 * **How to Learn**: formulating questions and finding answers.
 * **How to Debug**: finding errors and their causes.
+* **Homework Assignment**: Make a Brush Tool
 
-### Readings
-
-
+### Readings: TBD
 
 ### Additional Resources
 
@@ -90,15 +93,39 @@ Date: June 4th, 2020
 
 ## Section 2: Art, Data, and Grids
 Date: June 11th, 2020
+* **Typography in Grids**
+	* Typographical Movements Centered on the Idea of the Grid
+	* ASCII Art
+* **Technical Demo**
+	* Different Data Inputs Review/Deeper Dive
+	* Functional Programming
+		* Organizing Code
+		* Programs within Programs
+	* Loops
+	* ASCII Art & Grids
+	* Data Structures and Grid Systems/pixels/visual representation
+		* e.g. Arrays & objects
+* **Homework Assignment**: TBD
+
+### Readings: TBD
+
+### Additional Resources
 
 ## Section 3: Flexible Layouts
 Date: June 17th, 2020
+* Randomization
+* Transformations (scaling, translate)
+* **Homework Assignment**: Make a Static Typography Piece
 
 ## Section 4: Glitch Art
 Date: June 24th, 2020
+* Manipulating Data
+* Glitch Art as Style & Statement
+* Technical Demo
+	* Slit-scanning
+	* breaking data down into components
 
 ### Readings
-
 
 ### Additional Resources
 * [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
@@ -106,3 +133,12 @@ Date: June 24th, 2020
 
 ## Section 5: Movement and Animation
 Date: July 1st, 2020
+* Examples of Typography in Animation
+* Technical Demo
+	* Flow
+	* Using math, flow over time, representing movement
+	* Following polyline paths
+	* Mouse movements
+### Readings: TBD
+
+### Additional Resources
