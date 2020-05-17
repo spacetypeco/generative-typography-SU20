@@ -29,11 +29,18 @@ Introduction to Computing
 
 ## Week 2: Art, Data, and Grids
 - [ASCII-art-generator.org](https://www.ascii-art-generator.org/)
-
-Taking Inspirations
+- Ken Knowlton
+- [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
+- MetaFont
+- 
 
 ## Week 3: Transformation
 
+#### Artists & Artworks
+- Manfred Mohr
+- Vera Molnar
+- [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
+- [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
 ## Week 4: Glitch Art
 
 ## Week 5: Movement and Animation

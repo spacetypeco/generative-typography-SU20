@@ -142,3 +142,5 @@ Date: July 1st, 2020
 ### Readings: TBD
 
 ### Additional Resources
+
+[The Recode Project](http://recodeproject.com/): An Active Archive of Computer Art
