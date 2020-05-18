@@ -85,22 +85,26 @@ Date: June 4th, 2020
 - Font as Image
 - Font as Vector Coordinates
 
+### 👨🏻‍💻 Technical Demo
+
 ### Terminology Review
 - What is a web browser?
 - What is Javascript?
 - What is a console?
 - What is debugging?
 
-### 👨🏻‍💻 Technical Demo:
-* **What is a Program?**
-	* Primitives and Conditionals
-	* Anatomy of a P5js Sketch
-	* The Execution Loop
-	* Reading External Data
-* **How to Learn**: formulating questions and finding answers.
-* **How to Debug**: finding errors and their causes.
+### What is a Program?
+* Primitives and Conditionals
+* Anatomy of a P5js Sketch
+* The Execution Loop
+* Reading External Data
 
-***
+### How to Learn
+* formulating questions and finding answers.
+
+### How to Debug
+* finding errors and their causes.
+
 ## ✏️ Week 1 Homework
 
 ### Assignment
@@ -129,7 +133,7 @@ Date: June 11th, 2020
 * Early Computer Artists
 	* [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
 	* Ken Knowlton
-*  [First Arabic Poster](Readings/First_Arabic_Poster)
+*  [First Arabic Poster](Readings/First_Arabic_Poster.png)
 
 ### Fonts as Technology
 * Unicode
@@ -147,7 +151,6 @@ Date: June 11th, 2020
 	* Data Structures and Grid Systems/pixels/visual representation
 		* e.g. Arrays & objects
 
-***
 ## ✏️ Week 2 Homework
 
 ### Readings
@@ -179,7 +182,6 @@ Date: June 17th, 2020
 * Transformations (scaling, translate)
 
 
-***
 ## ✏️ Week 3 Homework
 Make a Static Typography Piece
 
@@ -193,16 +195,16 @@ Date: June 24th, 2020
 ### 📖 Class Reading Discussion 
 
 ### 👩🏻‍💻 What is a glitch?
-
+* Glitch Screens
+* Transcribing data types to another
 * Manipulating Data
 * Glitch Art as Style & Statement
 
 ### 👨🏻‍💻 Technical Demo
-	* Slit-scanning
-	* breaking data down into components
+* Slit-scanning
+* breaking data down into components
 
-***
-### ✏️ Week 4 Homework
+## ✏️ Week 4 Homework
 
 ### Readings
 
@@ -217,8 +219,6 @@ Date: July 1st, 2020
 
 ### 👩🏻‍💻 Typography in Animation 
 - Excerpt from *Visual Grammar* by Christian Leborg
-
-***
 
 ### 👨🏻‍💻 Technical Demo
 * Flow
