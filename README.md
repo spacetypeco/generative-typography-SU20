@@ -69,7 +69,7 @@ Subject to adjustment.
 - Make an account for the [P5.js Web Editor](https://editor.p5js.org/)
 - Join the Generative Type Slack 
 
-##Section 1: Overview and Conceptualizing Programs
+## Section 1: Overview and Conceptualizing Programs
 Date: June 4th, 2020
 
 ### 👋 Roundtable Intros
@@ -127,6 +127,7 @@ Date: June 11th, 2020
 
 ### 👩🏻‍💻 Early Computer Art & Artists: Part 1
 * MetaFont & Knuth
+* Hershey Fonts 
 * Typewriter Art
 * ASCII Art
 	* - [ASCII-art-generator.org](https://www.ascii-art-generator.org/)
