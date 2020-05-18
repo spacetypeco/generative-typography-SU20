@@ -65,16 +65,33 @@ Subject to adjustment.
 
 ## Topic Sections
 
-## Section 1: Overview and Conceptualizing Programs
+## Section 0: Before the First Week
+- Make an account for the [P5.js Web Editor](https://editor.p5js.org/)
+- Join the Generative Type Slack 
+
+##Section 1: Overview and Conceptualizing Programs
 Date: June 4th, 2020
-* Roundtable Intros
-### Lecture
-* Semester Overview
-* Examples of Type in Generative Mediums
-	* Font as String
-	* Font as Image
-	* Font as Vector Coordinates
-### Technical Demo:
+
+### 👋 Roundtable Intros
+
+### 👩🏻‍💻 Talking to Machines 
+- [Human Fax Machine Experiment](http://lucasihlein.net/The-Human-Fax-Machine-Experiment)
+-  Language as a Code System
+-  _Language is Image, Paper, Code & Cloth_ by Francesca Capone excerpt
+-  [First human computers](https://www.smithsonianmag.com/science-nature/history-human-computers-180972202/)
+
+### Type as Machine-Readable Data
+- Font as String
+- Font as Image
+- Font as Vector Coordinates
+
+### Terminology Review
+- What is a web browser?
+- What is Javascript?
+- What is a console?
+- What is debugging?
+
+### 👨🏻‍💻 Technical Demo:
 * **What is a Program?**
 	* Primitives and Conditionals
 	* Anatomy of a P5js Sketch
@@ -82,9 +99,17 @@ Date: June 4th, 2020
 	* Reading External Data
 * **How to Learn**: formulating questions and finding answers.
 * **How to Debug**: finding errors and their causes.
-* **Homework Assignment**: Make a Brush Tool
 
-### Readings: TBD
+***
+## ✏️ Week 1 Homework
+
+### Assignment
+* Make a Brush Tool
+
+### Readings
+
+* [A Note on the Type](Readings/A-Note-On-the_Type.pdf) by Dexter Sinister, 2010
+*  [Letter & Spirit](Readings/Letter-&-Spirit.pdf)  by Dexter Sinister, 2012
 
 ### Additional Resources
 
@@ -93,10 +118,26 @@ Date: June 4th, 2020
 
 ## Section 2: Art, Data, and Grids
 Date: June 11th, 2020
-* **Typography in Grids**
-	* Typographical Movements Centered on the Idea of the Grid
-	* ASCII Art
-* **Technical Demo**
+
+### 📖 Class Reading Discussion 
+
+### 👩🏻‍💻 Early Computer Art & Artists: Part 1
+* MetaFont & Knuth
+* Typewriter Art
+* ASCII Art
+	* - [ASCII-art-generator.org](https://www.ascii-art-generator.org/)
+* Early Computer Artists
+	* [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
+	* Ken Knowlton
+*  [First Arabic Poster](Readings/First_Arabic_Poster)
+
+### Fonts as Technology
+* Unicode
+* Encoding Systems
+* Information in font files
+
+
+* 👨🏻‍💻 **Technical Demo**
 	* Different Data Inputs Review/Deeper Dive
 	* Functional Programming
 		* Organizing Code
@@ -105,25 +146,63 @@ Date: June 11th, 2020
 	* ASCII Art & Grids
 	* Data Structures and Grid Systems/pixels/visual representation
 		* e.g. Arrays & objects
-* **Homework Assignment**: TBD
 
-### Readings: TBD
+***
+## ✏️ Week 2 Homework
+
+### Readings
+* [Hieroglyphs](Readings/Heiroglyphs.pdf) by Aaron Marcus, 1978
+* [Unimaginable Images](Readings/Unimaginable_Images.pdf) by Joseph P. Covington III, 1978
+
+### (Optional Readings)
+* [(P)(E)(R)(S)(E)(V)(E)(R)(E)](Readings/p-e-r-s-e-v-e-r-e.pdf) by Tauba Auerbach, 2017
+
 
 ### Additional Resources
 
-## Section 3: Flexible Layouts
+* TBD
+
+## Section 3: Transformation
 Date: June 17th, 2020
+
+### 📖 Class Reading Discussion 
+
+### 👩🏻‍💻 Early Computer Art & Artists: Part 2
+- Manfred Mohr
+- Vera Molnar
+- [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
+- [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
+
+### 👨🏻‍💻 Technical Demo
+
 * Randomization
 * Transformations (scaling, translate)
-* **Homework Assignment**: Make a Static Typography Piece
+
+
+***
+## ✏️ Week 3 Homework
+Make a Static Typography Piece
+
+### Readings
+* [Graphics Applications In the Environment](Readings/Graphics_Applications_In_the_Environment.pdf) by G. F. Kammerer-Luka, 1976
+* [Outer Space and Technological Progress](Readings/Outer_Space_and_Technoligical_Progress.pdf) by Roger Coqart, 1978
 
 ## Section 4: Glitch Art
 Date: June 24th, 2020
+
+### 📖 Class Reading Discussion 
+
+### 👩🏻‍💻 What is a glitch?
+
 * Manipulating Data
 * Glitch Art as Style & Statement
-* Technical Demo
+
+### 👨🏻‍💻 Technical Demo
 	* Slit-scanning
 	* breaking data down into components
+
+***
+### ✏️ Week 4 Homework
 
 ### Readings
 
@@ -133,12 +212,22 @@ Date: June 24th, 2020
 
 ## Section 5: Movement and Animation
 Date: July 1st, 2020
-* Examples of Typography in Animation
-* Technical Demo
-	* Flow
-	* Using math, flow over time, representing movement
-	* Following polyline paths
-	* Mouse movements
+
+### 📖 Class Reading Discussion 
+
+### 👩🏻‍💻 Typography in Animation 
+- Excerpt from *Visual Grammar* by Christian Leborg
+
+***
+
+### 👨🏻‍💻 Technical Demo
+* Flow
+* Using math, flow over time, representing movement
+* Following polyline paths
+* Mouse movements
+
+	
+## ✏️ Week 5 Homework
 ### Readings: TBD
 
 ### Additional Resources
