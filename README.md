@@ -72,10 +72,14 @@ Subject to adjustment.
 ## Section 1: Overview and Conceptualizing Programs
 Date: June 4th, 2020
 
-### 👋 Roundtable Intros
+Class materials: Grid paper
 
-### 👩🏻‍💻 Talking to Machines 
-- [Human Fax Machine Experiment](http://lucasihlein.net/The-Human-Fax-Machine-Experiment)
+### 6:30pm 👋 Roundtable Intros & Housekeeping
+
+### 7:00pm 👩🏻‍💻 Semester Overview
+
+### Talking to Machines 
+
 -  Language as a Code System
 -  _Language is Image, Paper, Code & Cloth_ by Francesca Capone excerpt
 -  [First human computers](https://www.smithsonianmag.com/science-nature/history-human-computers-180972202/)
@@ -85,7 +89,12 @@ Date: June 4th, 2020
 - Font as Image
 - Font as Vector Coordinates
 
-### 👨🏻‍💻 Technical Demo
+### Thought Exercises
+- [Human Fax Machine Experiment](http://lucasihlein.net/The-Human-Fax-Machine-Experiment)
+- Describe Vera Molnar piece
+
+*~ Break ~*
+### 8:15pm 👨🏻‍💻 Technical Demo
 
 ### Terminology Review
 - What is a web browser?
@@ -123,9 +132,11 @@ Date: June 4th, 2020
 ## Section 2: Art, Data, and Grids
 Date: June 11th, 2020
 
-### 📖 Class Reading Discussion 
+### 6:30pm ✏️ Discuss Homework
 
-### 👩🏻‍💻 Early Computer Art & Artists: Part 1
+### 7:15pm 📖 Class Reading Discussion 
+
+### 7:45pm 👩🏻‍💻 Early Computer Art & Artists: Part 1
 * MetaFont & Knuth
 * Hershey Fonts 
 * Typewriter Art
@@ -141,8 +152,8 @@ Date: June 11th, 2020
 * Encoding Systems
 * Information in font files
 
-
-* 👨🏻‍💻 **Technical Demo**
+*~ break ~*
+### 8:30pm 👨🏻‍💻 **Technical Demo**
 	* Different Data Inputs Review/Deeper Dive
 	* Functional Programming
 		* Organizing Code
@@ -169,15 +180,19 @@ Date: June 11th, 2020
 ## Section 3: Transformation
 Date: June 17th, 2020
 
-### 📖 Class Reading Discussion 
+### 6:30pm ✏️ Discuss Homework
 
-### 👩🏻‍💻 Early Computer Art & Artists: Part 2
+### 7:15pm 📖 Class Reading Discussion 
+
+### 7:45pm 👩🏻‍💻 Early Computer Art & Artists: Part 2
 - Manfred Mohr
 - Vera Molnar
 - [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
 - [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
 
-### 👨🏻‍💻 Technical Demo
+*~ break ~*
+
+### 8:30pm 👨🏻‍💻 Technical Demo
 
 * Randomization
 * Transformations (scaling, translate)
@@ -193,15 +208,19 @@ Make a Static Typography Piece
 ## Section 4: Glitch Art
 Date: June 24th, 2020
 
-### 📖 Class Reading Discussion 
+### 6:30pm ✏️ Discuss Homework
 
-### 👩🏻‍💻 What is a glitch?
+### 7:15pm 📖 Class Reading Discussion 
+
+### 7:45pm 👩🏻‍💻 What Does Glitching Mean?
 * Glitch Screens
 * Transcribing data types to another
 * Manipulating Data
 * Glitch Art as Style & Statement
 
-### 👨🏻‍💻 Technical Demo
+*~ break ~*
+
+### 8:30pm 👨🏻‍💻 Technical Demo
 * Slit-scanning
 * breaking data down into components
 
@@ -216,12 +235,15 @@ Date: June 24th, 2020
 ## Section 5: Movement and Animation
 Date: July 1st, 2020
 
-### 📖 Class Reading Discussion 
+### 6:30pm ✏️ Discuss Homework
 
-### 👩🏻‍💻 Typography in Animation 
+### 7:15pm 📖 Class Reading Discussion 
+
+### 7:45pm 👩🏻‍💻 Typography in Animation 
 - Excerpt from *Visual Grammar* by Christian Leborg
 
-### 👨🏻‍💻 Technical Demo
+*~ break ~*
+### 8:30pm 👨🏻‍💻 Technical Demo
 * Flow
 * Using math, flow over time, representing movement
 * Following polyline paths
