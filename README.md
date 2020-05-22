@@ -256,3 +256,12 @@ Date: July 1st, 2020
 ### Additional Resources
 
 [The Recode Project](http://recodeproject.com/): An Active Archive of Computer Art
+
+***
+## General Resources
+
+### Accessibility
+* If your project is intended for people to interact with, check out [Designing for accessibility is not that hard](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94) by Pablo Stanley. For us, this might mean things like:
+	* Adding enough color contrast
+	* Adding alt-text if applicable
+	* Supporting keyboard navigation
