@@ -50,12 +50,12 @@ Throughout the course, we'll be available during class and on slack for all your
 Subject to adjustment.
 
 
-|Week|Topic|Details|Project
+|Week|Topic|Details|Assignments
 |-----|----|-----------|------
-|1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Make a brush
-|2|Art, Data, and Grids||Grid-inspired composition
-|3|Flexible Layouts||Concrete poetry composition
-|4|Glitch Art||Glitch Art-inspired composition
+|1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Make a brush <br> + Readings
+|2|Art, Data, and Grids||Grid-inspired composition <br> + Readings
+|3|Flexible Layouts||Concrete poetry composition<br> + Readings
+|4|Glitch Art||Glitch Art-inspired composition<br> + Readings
 |5|Movement and Animation||Mini Project Ideation
 |6|1:1s — Ideation and Planning||Mini Project Draft
 |7|Student Presentations||Final Project Ideation
@@ -82,7 +82,7 @@ Class materials: Grid paper
 
 -  Language as a Code System
 -  _Language is Image, Paper, Code & Cloth_ by Francesca Capone excerpt
--  [First human computers](https://www.smithsonianmag.com/science-nature/history-human-computers-180972202/)
+-  [First human computers](https://www.space.com/34619-women-computers-of-nasa-jpl.html)
 
 ### Type as Machine-Readable Data
 - Font as String
@@ -123,6 +123,8 @@ Class materials: Grid paper
 
 * [A Note on the Type](Readings/A-Note-On-the_Type.pdf) by Dexter Sinister, 2010
 *  [Letter & Spirit](Readings/Letter-&-Spirit.pdf)  by Dexter Sinister, 2012
+*  [Computer Grass is Natural Grass](Readings/Computer_Grass_Is_Natural_Grass.pdf)
+*  [Vera Molar Interview](Readings/Vera_Molnar.pdf)
 
 ### Additional Resources
 
@@ -240,6 +242,7 @@ Date: July 1st, 2020
 ### 7:15pm 📖 Class Reading Discussion 
 
 ### 7:45pm 👩🏻‍💻 Typography in Animation 
+- Development of typographical technologies
 - Excerpt from *Visual Grammar* by Christian Leborg
 
 *~ break ~*
