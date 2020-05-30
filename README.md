@@ -52,7 +52,7 @@ Subject to adjustment.
 
 |Week|Topic|Details|Assignments
 |-----|----|-----------|------
-|1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Make a brush <br> + Readings
+|1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Interactive piece <br> + Readings
 |2|Art, Data, and Grids||Grid-inspired composition <br> + Readings
 |3|Flexible Layouts||Concrete poetry composition<br> + Readings
 |4|Glitch Art||Glitch Art-inspired composition<br> + Readings
@@ -96,28 +96,31 @@ Class materials: Grid paper
 *~ Break ~*
 ### 8:15pm 👨🏻‍💻 Technical Demo
 
-### Terminology Review
-- What is a web browser?
-- What is Javascript?
-- What is a console?
-- What is debugging?
-
 ### What is a Program?
-* Primitives and Conditionals
+
+* Programming as Language
+* What is JavaScript?
+* Learning a language
+	* Reading documentation
+	* Searching for answers
+
+### How Do I JavaScript?
+
+* Core JavaScript Concepts
+	* Primitives and Conditionals
+	* Mental Modeling
+	* Console + Debugging: Finding errors and their causes
 * Anatomy of a P5js Sketch
-* The Execution Loop
-* Reading External Data
-
-### How to Learn
-* formulating questions and finding answers.
-
-### How to Debug
-* finding errors and their causes.
+	* Drawing Things!
+	* The Execution Loop
+	* Interactivity
+	* Reading external images and fonts
+	* Randomness
 
 ## ✏️ Week 1 Homework
 
 ### Assignment
-* Make a Brush Tool
+* Make a Brush Tool or other interactive piece.
 
 ### Readings
 
@@ -126,10 +129,25 @@ Class materials: Grid paper
 *  [Computer Grass is Natural Grass](Readings/Computer_Grass_Is_Natural_Grass.pdf)
 *  [Vera Molar Interview](Readings/Vera_Molnar.pdf)
 
-### Additional Resources
+### Technical Resources
 
-* [Generative Design](http://www.generative-gestaltung.de/2/): Part 2 (Shapes)
-* [Eloquent Javascript: Program Structure](https://eloquentjavascript.net/02_program_structure.html)
+Practical Javascript:
+
+* [Expressions, Variables, and Loops](https://creative-coding.decontextualize.com/expressions-variables-and-loops/)
+
+p5.js tutorials:
+
+* [p5js.org/learn](https://p5js.org/learn/)
+* [First Steps](https://creative-coding.decontextualize.com/first-steps/)
+* [Text and Type](https://creative-coding.decontextualize.com/text-and-type/)
+
+Programming (for those who like to learn conceptually):
+  
+* [Just Javascript](https://justjavascript.com/) - super accessible, visual newsletter by Dan Abramov and Maggie Appleton.
+* [Eloquent Javascript](https://eloquentjavascript.net/00_intro.html) (Chapters 0-2) - In-depth walkthrough of JavaScript.
+
+### Additional Resources
+* [Generative Design (Book + Advanced Sketch Examples)](http://www.generative-gestaltung.de/2/)
 
 ## Section 2: Art, Data, and Grids
 Date: June 11th, 2020
@@ -156,14 +174,15 @@ Date: June 11th, 2020
 
 *~ break ~*
 ### 8:30pm 👨🏻‍💻 **Technical Demo**
-	* Different Data Inputs Review/Deeper Dive
-	* Functional Programming
-		* Organizing Code
-		* Programs within Programs
-	* Loops
-	* ASCII Art & Grids
-	* Data Structures and Grid Systems/pixels/visual representation
-		* e.g. Arrays & objects
+
+* Different Data Inputs Review/Deeper Dive
+* Functional Programming
+	* Organizing Code
+	* Programs within Programs
+* Loops
+* ASCII Art & Grids
+* Data Structures and Grid Systems/pixels/visual representation
+	* e.g. Arrays & objects
 
 ## ✏️ Week 2 Homework
 
