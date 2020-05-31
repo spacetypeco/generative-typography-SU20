@@ -52,11 +52,11 @@ Subject to adjustment.
 
 |Week|Topic|Details|Assignments
 |-----|----|-----------|------
-|1|Introductions, Overview, and Conceptualizing Programs|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Interactive piece <br> + Readings
-|2|Art, Data, and Grids||Grid-inspired composition <br> + Readings
-|3|Flexible Layouts||Concrete poetry composition<br> + Readings
-|4|Glitch Art||Glitch Art-inspired composition<br> + Readings
-|5|Movement and Animation||Mini Project Ideation
+|1|[Introductions, Overview, and Conceptualizing Programs](#section-1-overview-and-conceptualizing-programs)|We meet each other. We tell you what we hope to cover, you tell us what you hope to learn. Then we make a running start!|Interactive piece <br> + Readings
+|2|[Art, Data, and Grids](#section-2-art-data-and-grids)||Grid-inspired composition <br> + Readings
+|3|[Transformation](#section-3-transformation)||Concrete poetry composition<br> + Readings
+|4|[Glitch Art](#section-4-glitch-art)||Glitch Art-inspired composition<br> + Readings
+|5|[Movement and Animation](#section-5-movement-and-animation)||Mini Project Ideation
 |6|1:1s — Ideation and Planning||Mini Project Draft
 |7|Student Presentations||Final Project Ideation
 |8|1:1s - Ideation and Planning||Final Project Draft
