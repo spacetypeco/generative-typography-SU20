@@ -106,21 +106,22 @@ Class materials: Grid paper
 
 ### How Do I JavaScript?
 
-* Core JavaScript Concepts
-	* Primitives and Conditionals
-	* Mental Modeling
-	* Console + Debugging: Finding errors and their causes
-* Anatomy of a P5js Sketch
-	* Drawing Things!
-	* The Execution Loop
-	* Interactivity
-	* Reading external images and fonts
-	* Randomness
+* Web Browsers and the JavaScript Console
+* Primitives and Conditionals
+* Mental Modeling
+* Debugging: Finding errors and their causes
+
+### Anatomy of a P5js Sketch
+* Drawing Things!
+* The Execution Loop
+* Mouse Interactivity
+* Reading external images and fonts
+* Randomness
 
 ## ✏️ Week 1 Homework
 
 ### Assignment
-* Make a Brush Tool or other interactive piece.
+* Make a brush tool or other interactive piece.
 
 ### Readings
 
@@ -129,7 +130,8 @@ Class materials: Grid paper
 *  [Computer Grass is Natural Grass](Readings/Computer_Grass_Is_Natural_Grass.pdf)
 *  [Vera Molar Interview](Readings/Vera_Molnar.pdf)
 
-### Technical Resources
+
+## 📚 Technical Resources
 
 Practical Javascript:
 
@@ -175,14 +177,14 @@ Date: June 11th, 2020
 *~ break ~*
 ### 8:30pm 👨🏻‍💻 **Technical Demo**
 
-* Different Data Inputs Review/Deeper Dive
+* Automation and Repetition (Loops!)
+* Representing Collections (Arrays, Grids)
+* Fonts as Images (Arrays of Arrays)
+	* RGB Grids
+	* ASCII Art From Images
 * Functional Programming
 	* Organizing Code
 	* Programs within Programs
-* Loops
-* ASCII Art & Grids
-* Data Structures and Grid Systems/pixels/visual representation
-	* e.g. Arrays & objects
 
 ## ✏️ Week 2 Homework
 
@@ -215,9 +217,10 @@ Date: June 17th, 2020
 
 ### 8:30pm 👨🏻‍💻 Technical Demo
 
-* Randomization
-* Transformations (scaling, translate)
-
+* Transformations (scaling, rotation, translation, skew)
+* Representing Data Containers (Objects)
+* Fonts as Vectors (Arrays of Objects)
+* Multi-Agent Systems (particles)
 
 ## ✏️ Week 3 Homework
 Make a Static Typography Piece
@@ -242,8 +245,10 @@ Date: June 24th, 2020
 *~ break ~*
 
 ### 8:30pm 👨🏻‍💻 Technical Demo
-* Slit-scanning
-* breaking data down into components
+
+* Breaking data down into components
+* Case Study: Slit-scanning
+* Case Study: Image Transcription
 
 ## ✏️ Week 4 Homework
 
