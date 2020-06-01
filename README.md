@@ -3,7 +3,7 @@
 ![](https://media.giphy.com/media/kaaDf1Yp2EI7mQo30g/giphy.gif)
 
 - Type@Cooper Public Workshop Summer 2020
-- 6:30–9:30pm on Tuesdays, June 2nd to Aug 4th
+- 6:30–9:30pm, 2 sections (Tuesdays & Thursdays), June 2nd to Aug 6th
 - Instructors: [Lynne Yun](lynneyun.com), [Kevin Yeh](kevbk.com)
 - Course Discussion: Slack
 
@@ -70,7 +70,6 @@ Subject to adjustment.
 - Join the Generative Type Slack 
 
 ## Section 1: Overview and Conceptualizing Programs
-Date: June 4th, 2020
 
 Class materials: Grid paper
 
@@ -111,7 +110,7 @@ Class materials: Grid paper
 * Mental Modeling
 * Debugging: Finding errors and their causes
 
-### Anatomy of a P5js Sketch
+### Anatomy of a P5.js Sketch
 * Drawing Things!
 * The Execution Loop
 * Mouse Interactivity
@@ -152,7 +151,6 @@ Programming (for those who like to learn conceptually):
 * [Generative Design (Book + Advanced Sketch Examples)](http://www.generative-gestaltung.de/2/)
 
 ## Section 2: Art, Data, and Grids
-Date: June 11th, 2020
 
 ### 6:30pm ✏️ Discuss Homework
 
@@ -201,7 +199,6 @@ Date: June 11th, 2020
 * TBD
 
 ## Section 3: Transformation
-Date: June 17th, 2020
 
 ### 6:30pm ✏️ Discuss Homework
 
@@ -230,7 +227,6 @@ Make a Static Typography Piece
 * [Outer Space and Technological Progress](Readings/Outer_Space_and_Technoligical_Progress.pdf) by Roger Coqart, 1978
 
 ## Section 4: Glitch Art
-Date: June 24th, 2020
 
 ### 6:30pm ✏️ Discuss Homework
 
@@ -259,7 +255,6 @@ Date: June 24th, 2020
 
 
 ## Section 5: Movement and Animation
-Date: July 1st, 2020
 
 ### 6:30pm ✏️ Discuss Homework
 
