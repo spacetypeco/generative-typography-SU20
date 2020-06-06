@@ -153,8 +153,8 @@ The console is often used as a tool for debugging (finding, investigating, and f
 #### Booleans
 
 |Operation|Example Input|Example Output|
-|---------|-------|-----|--------------|
-|Equality | `1 === 1`, `"hello!" === "hello"`   | `true`, `false` |
+|---------|-------|-----|
+|Equality | `1 === 1`, `"2" === 2`   | `true`, `false` |
 |Inequality| `1 !== 2`. | `true` |
 |Comparison| `1 > 1`, `1 >= 1` | `false` `true` |
 |Combinations| `true && false`, `true || false` | `false`, `true` |
