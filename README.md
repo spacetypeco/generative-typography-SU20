@@ -156,21 +156,20 @@ Programming (for those who like to learn conceptually):
 
 ### 7:15pm 📖 Class Reading Discussion 
 
-### 7:45pm 👩🏻‍💻 Early Computer Art & Artists: Part 1
-* MetaFont & Knuth
-* Hershey Fonts 
+### 7:45pm 👩🏻‍💻 Early Generative Mediums & Artists
 * Typewriter Art
 * ASCII Art
 	* - [ASCII-art-generator.org](https://www.ascii-art-generator.org/)
-* Early Computer Artists
-	* [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
-	* Ken Knowlton
-*  [First Arabic Poster](Readings/First_Arabic_Poster.png)
+* Concrete Poetry
 
-### Fonts as Technology
-* Unicode
-* Encoding Systems
-* Information in font files
+### Teaching Computers
+* Nature-Inspired algorithms
+* Fallacy of algorithms
+* Conways' Game of Life
+
+### Generative Typographers
+* MetaFont & Knuth
+* Hershey Fonts 
 
 *~ break ~*
 ### 8:30pm 👨🏻‍💻 **Technical Demo**
@@ -186,8 +185,13 @@ Programming (for those who like to learn conceptually):
 
 ## ✏️ Week 2 Homework
 
+#### Suggested Assignments
+* (beginner) ASCII/Typewriter Art inspired piece
+* (intermediate+) Creating [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) inspired piece
+
 ### Readings
-* [Hieroglyphs](Readings/Heiroglyphs.pdf) by Aaron Marcus, 1978
+* [The Concept of a Meta-Font](TheConceptofaMetaFont) by Donald Knuth
+* [Hieroglyphs](Readings/Hieroglyphs.pdf) by Aaron Marcus, 1978
 * [Unimaginable Images](Readings/Unimaginable_Images.pdf) by Joseph P. Covington III, 1978
 
 ### (Optional Readings)
@@ -204,11 +208,19 @@ Programming (for those who like to learn conceptually):
 
 ### 7:15pm 📖 Class Reading Discussion 
 
-### 7:45pm 👩🏻‍💻 Early Computer Art & Artists: Part 2
+### 7:45pm 👩🏻‍💻 Early Computer Art & Artists
+* [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
+* Ken Knowlton
+*  [First Arabic Poster](Readings/First_Arabic_Poster.png)
 - Manfred Mohr
 - Vera Molnar
 - [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
 - [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
+
+### Fonts as Technology
+* Unicode
+* Encoding Systems
+* Information in font files
 
 *~ break ~*
 
