@@ -153,8 +153,8 @@ The console is often used as a tool for debugging (finding, investigating, and f
 #### Booleans
 
 |Operation|Example Input|Example Output|
-|---------|-------|-----|
-|Equality | `1 === 1`, `"2" === 2`   | `true`, `false` |
+|---------|-------|-----|--------------|
+|Equality | `1 === 1`, `"hello!" === "hello"`   | `true`, `false` |
 |Inequality| `1 !== 2`. | `true` |
 |Comparison| `1 > 1`, `1 >= 1` | `false` `true` |
 |Combinations| `true && false`, `true || false` | `false`, `true` |
@@ -231,16 +231,15 @@ Now that we've written a few pieces of JavaScript, let's take a pause and look a
 - Numbers are pretty recognizable from how they're represented in calculators.
 - Strings are declared using quotation marks (single or double quoted)
 - We use `let` to declare new variables and store data.
-- Parentheses are used in a couple different places — for example, passing inputs to functions. `console.log("input")`
-- Curly braces are used to enclose "blocks" of code. 
-- Variables in curly braces only live within those curly braces.
+- Parentheses are used in a couple different places.
+- Curly braces are used to enclose "blocks" of code.
 
 Under the hood, we may also observe the following traits of our program:
 
 - A program runs one "expression" at a time
 	- usually one line, but can be multiple for readability. 
 	- _generally_, it goes top to bottom. but there are many grammars that tell it to go back to a previous line, or to go somewhere else entirely outside of our program. We've already done this with `console.log`, actually!
-	- Look for grammar that indicates a "container" of code: curly braces, brackets, parentheses.
+	- Look for grammmar that indicates a "container" of code: curly braces, brackets, parentheses.
 
 ### Mental Models for Programming
 
@@ -260,7 +259,7 @@ We've introduced something that we want to remember and use later on. The progra
 
 ## Recommended Readings
 
-### Practical Readings
+g### Practical Readings
 
 * For more applicable examples, Allison Parrish's notes and interactive tutorials on creative coding in JS and p5.js are extremely valuable. 
 
