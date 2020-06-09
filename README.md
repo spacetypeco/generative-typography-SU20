@@ -200,7 +200,7 @@ Programming (for those who like to learn conceptually):
 
 ### Additional Resources
 
-* TBD
+* [Flow Fields](https://tylerxhobbs.com/essays/2020/flow-fields) by Tyler Hobbs, 2020 (Advanced)
 
 ## Section 3: Transformation
 
