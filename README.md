@@ -190,7 +190,7 @@ Programming (for those who like to learn conceptually):
 * (intermediate+) Creating [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) inspired piece
 
 ### Readings
-* [The Concept of a Meta-Font](TheConceptofaMetaFont) by Donald Knuth
+* [The Concept of a Meta-Font](TheConceptofaMetaFont.pdf) by Donald Knuth
 * [Hieroglyphs](Readings/Hieroglyphs.pdf) by Aaron Marcus, 1978
 * [Unimaginable Images](Readings/Unimaginable_Images.pdf) by Joseph P. Covington III, 1978
 
