@@ -190,17 +190,17 @@ Programming (for those who like to learn conceptually):
 * (intermediate+) Creating [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) inspired piece
 
 ### Readings
-* [The Concept of a Meta-Font](TheConceptofaMetaFont) by Donald Knuth
 * [Hieroglyphs](Readings/Hieroglyphs.pdf) by Aaron Marcus, 1978
+* [(P)(E)(R)(S)(E)(V)(E)(R)(E)](Readings/p-e-r-s-e-v-e-r-e.pdf) by Tauba Auerbach, 2017
 * [Unimaginable Images](Readings/Unimaginable_Images.pdf) by Joseph P. Covington III, 1978
 
 ### (Optional Readings)
-* [(P)(E)(R)(S)(E)(V)(E)(R)(E)](Readings/p-e-r-s-e-v-e-r-e.pdf) by Tauba Auerbach, 2017
+* [The Concept of a Meta-Font](TheConceptofaMetaFont.pdf) by Donald Knuth
 
 
 ### Additional Resources
 
-* TBD
+* [Gratifying Generatives - Vera Molnár by cozy coding](https://www.twitch.tv/videos/636772221?t=00h22m59s)
 
 ## Section 3: Transformation
 
