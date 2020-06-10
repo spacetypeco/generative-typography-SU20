@@ -53,7 +53,7 @@ Subject to adjustment.
 |Week|Topic| Recordings & Sketches|Assignments
 |-----|----|-----------|------
 |1|[Introductions, Overview, and Conceptualizing Programs](#section-1-overview-and-conceptualizing-programs)| [Lecture Video](https://youtu.be/EfV6pgSjzrk) <br> [Lecture Slides](Slides/Generative_Type_Week1.pdf) <br> [Tech Demo Video](https://youtu.be/qJpEIt8bzR0) <br> [Tech Demo Slides](Generative_Type_Week1_Programming.pdf) <br> [Sketch Collection](https://editor.p5js.org/kyeah/collections/y65SYurzv) |Interactive piece <br> + Readings
-|2|[Art, Data, and Grids](#section-2-art-data-and-grids)||Grid-inspired composition <br> + Readings
+|2|[Art, Data, and Grids](#section-2-art-data-and-grids)|[Lecture Slides](Slides/Generative_Type_Week2.pdf)|Grid-inspired composition <br> + Readings
 |3|[Transformation](#section-3-transformation)||Concrete poetry composition<br> + Readings
 |4|[Glitch Art](#section-4-glitch-art)||Glitch Art-inspired composition<br> + Readings
 |5|[Movement and Animation](#section-5-movement-and-animation)||Mini Project Ideation
