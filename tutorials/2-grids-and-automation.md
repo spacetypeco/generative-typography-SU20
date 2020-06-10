@@ -69,7 +69,7 @@ In this way, we can see that the first two components define the "number line":
 let y = 0; y < height;
 ```
 
-and the last component define the rate of change:
+and the last component defines the rate of change:
 
 ```js
 y += 10
@@ -85,6 +85,8 @@ In terms of logic that we've already talked about, we can think of it as:
 ![](https://lh3.googleusercontent.com/pw/ACtC-3elgXSPbmbIuRJQOVxssb9f4LcInQ4Bpt39wV_GXBr_dxlOkP1Ogx6HGHDdV7A6unaVmV-qYGf8SJpGPHOfA8Ym3KlvTX0t3n4_wp4lWxhIzTKSkDHuao6GXZw-I9mvjCs5wFCSjQhx6Dyftcg2kXI6YA=w1264-h1050-no)
 
 But this is kinda abstract! Instead, I try to consider the actual _output_ of the code, which is essentially a **list of values** for `y`.
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3d0ZV3Tb-xZReS-9l9TwZ9nBn3TKV5bSbxgvsPWjWUWJ42zr83TQqKdLvfXJ9XE65fj_tA0UWNRKgqE4HAO_cl-Ynsg_vp6maFqeeEk1k1bCPwsPnwy1IL6NiJMGXmeQaeoOBrZPdAp9xl21pufjK_fcA=w1430-h574-no)
 
 In fact, we could write out this list of values manually in JavaScript and use that instead:
 
@@ -152,6 +154,9 @@ for(let y = 0; y < height; y += 10) {
 }
 ```
 
+- Go down the canvas with y = 0, y = 10, y = 20, ...
+- For each y value, draw a row of dots with x = 0, x = 10, x = 20, ...
+
 This is pretty confusing, but it may be more readable if we use a human-readable function name:
 
 ```js
@@ -173,7 +178,7 @@ This is saying:
 - For each y value (0, 10, 20, 30...), draw a row of dots.
 - To draw a row of dots, we take a y value and draw dots at (x=0, x=10, x=20, ...)
 
-If we shift our mental model a bit, we can think about it in terms of rows and columns. Below, we're drawing a grid of 'a's:
+Alternatively, we can shift our mental model a bit and think about it in terms of rows and columns. Below, we're drawing a grid of 'a's:
 
 ```js
 for (let row = 0; row < 6; row += 1) {
@@ -185,7 +190,7 @@ for (let row = 0; row < 6; row += 1) {
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3c7g9Oy1OFsx8qO8UmCq-95PU-pm_WY6G1yPF-pcAKrWEG5GMagVISAqelMl5_Ateijp68SvWohdnA0d9lK7v5dCKdZzpyyY1p5n8kUNtkKoVOpLKdF_fo8-R-9crO5RLKx-96eVHrSp6DjWiDJdF2d7A=s800-no?authuser=0)
 
-Visually, we may think of these two loops in follows:
+Visually, we may think of these two loops as follows:
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cMM4Fsm3zbqIMaGTO7hXFJiT8kt5-PGOCSm-t1hPuCGobtwfTyf-x8y9hp_EX1Dh-9H0sL0bWaj6WSw4nZu633lrsjRJ2rpThv5gTYVANz4Z_XY98yIJThXkXAGmkKx7vu9anSJjScaPkG8fYzXDqkvA=w1588-h1096-no?authuser=0)
 
@@ -195,17 +200,7 @@ Visually, we may think of these two loops in follows:
 - We increment row again. (row += 1)
 - repeat until done :)
 
-If you create for-loops in this manner, you may notice some differences in positioning. When modifying x and y directly, we can use it:
-
-```js
-for(let y = 0; y < height; y += 10) {
-  for(let x = 0; x < width; x += 10) {
-    circle(x, y, 5)
-  }
-}
-```
-
-But if you think in terms of rows and columns, we need to do some math to space them properly:
+If you create for-loops in this manner, you may notice some differences in positioning. In particular, we need to do some math to space grid points properly:
 
 ```js
 for (let row = 0; row < 6; row += 1) {
@@ -213,6 +208,16 @@ for (let row = 0; row < 6; row += 1) {
     let x = row * 10    // grid points are 10 pixels apart
     let y = column * 10 // grid points are 10 pixels apart
     circle (x, y, 5)
+  }
+}
+```
+
+When modifying x and y directly as we were doing before, we can just use it:
+
+```js
+for(let y = 0; y < height; y += 10) {
+  for(let x = 0; x < width; x += 10) {
+    circle(x, y, 5)
   }
 }
 ```
