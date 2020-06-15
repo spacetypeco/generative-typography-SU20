@@ -167,7 +167,7 @@ Programming (for those who like to learn conceptually):
 * Fallacy of algorithms
 * Conways' Game of Life
 
-### Generative Typographers
+### Generative Type Designers
 * MetaFont & Knuth
 * Hershey Fonts 
 
@@ -209,18 +209,29 @@ Programming (for those who like to learn conceptually):
 
 ### 7:15pm 📖 Class Reading Discussion 
 
-### 7:45pm 👩🏻‍💻 Early Computer Art & Artists
+### 7:45pm 👩🏻‍💻 Generative Writers, Artists & Poets
+**Asemic Writing**
+
+* Voynich manuscript
+* Xu Bing's Book from the Sky
+* Mirtha Dermisache
+* Anders Hoff [Inconvergent](https://inconvergent.net)
+
+**Early Computer Art**
+
 * [Hiroshi Kawano](https://www.overheadcompartment.org/the-work-of-art-in-the-age-of-programmatic-abstraction/)
 * Ken Knowlton
 *  [First Arabic Poster](Readings/First_Arabic_Poster.png)
 - Manfred Mohr
-- [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
-- [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
 
-### Fonts as Technology
-* Unicode
-* Encoding Systems
-* Information in font files
+**Web Poetry**
+
+- [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
+- [Nested](http://orteil.dashnet.org/nested) by Orteil
+- [Lines of Force](http://sync.abue.io/issues/190719nm_sync2_29_linesofforce.pdf) by Nick Montfort
+- [abcdefghijklmnopqrstuvwxyz](https://joerg.piringer.net/index.php?href=performance/abcdefghijklmnopqrstuvwxyz.xml) by Jörg Piringer
+- [Further Sketch](https://www.dwitter.net/d/15695) by Ross Goodwin
+
 
 *~ break ~*
 
@@ -265,6 +276,7 @@ Make a Static Typography Piece
 ## ✏️ Week 4 Homework
 
 ### Readings
+* [Lossy text compression, for some reason?!](https://youtu.be/meovx9OqWJc) by Allison Parrish
 
 ### Additional Resources
 * [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
