@@ -214,7 +214,6 @@ Programming (for those who like to learn conceptually):
 * Ken Knowlton
 *  [First Arabic Poster](Readings/First_Arabic_Poster.png)
 - Manfred Mohr
-- Vera Molnar
 - [Seattle Drift](http://www.vispo.com/animisms/SeattleDriftEnglish.html#) 
 - [Women in Concrete Poetry](https://monoskop.org/Women_in_concrete_poetry)
 
@@ -236,6 +235,10 @@ Programming (for those who like to learn conceptually):
 Make a Static Typography Piece
 
 ### Readings
+
+* [The Fuzzy Edges of Character Encoding](https://rundog.art/issues/automateme/the-fuzzy-edges-of-character-encoding/) by Everest Pipkin
+
+### (Optional Readings)
 * [Graphics Applications In the Environment](Readings/Graphics_Applications_In_the_Environment.pdf) by G. F. Kammerer-Luka, 1976
 * [Outer Space and Technological Progress](Readings/Outer_Space_and_Technoligical_Progress.pdf) by Roger Coqart, 1978
 
