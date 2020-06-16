@@ -247,10 +247,21 @@ Make a Static Typography Piece
 ### Readings
 
 * [The Fuzzy Edges of Character Encoding](https://rundog.art/issues/automateme/the-fuzzy-edges-of-character-encoding/) by Everest Pipkin
+* [On Weaving](https://www.are.na/block/2597972) by Anni Albers
+	* Designing as Visual Organization (pages 71-80)
+* [Computational Models for Expressive Dimensional Typography](https://www.are.na/block/6926303) by Peter Cho, 1999
+	* Background, Thoughts On Type, Concluding Remarks
+	* Optionally, look through the experiments and other sections.
 
 ### (Optional Readings)
-* [Graphics Applications In the Environment](Readings/Graphics_Applications_In_the_Environment.pdf) by G. F. Kammerer-Luka, 1976
+* [Black Gooey Universe](Readings/BlackGooeyUniverse.pdf)
 * [Outer Space and Technological Progress](Readings/Outer_Space_and_Technoligical_Progress.pdf) by Roger Coqart, 1978
+* [On Software, or the Persistence of Visual Knowledge](Readings/wendy-hui-kyong-chun_on-software.pdf) by Wendy Chun, 2004
+* [Graphics Applications In the Environment](Readings/Graphics_Applications_In_the_Environment.pdf) by G. F. Kammerer-Luka, 1976
+
+### Additional Resources
+
+* [Morphogenesis Resources](https://github.com/jasonwebb/morphogenesis-resources) by Jason Webb
 
 ## Section 4: Glitch Art
 
