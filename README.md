@@ -237,10 +237,9 @@ Programming (for those who like to learn conceptually):
 
 ### 8:30pm 👨🏻‍💻 Technical Demo
 
-* Transformations (scaling, rotation, translation, skew)
-* Representing Data Containers (Objects)
-* Fonts as Vectors (Arrays of Objects)
-* Multi-Agent Systems (particles)
+* Transformations (scaling, rotation, translation, shearing)
+* Layouts (map)
+* WebGL and 3D
 
 ## ✏️ Week 3 Homework
 Make a Static Typography Piece
@@ -270,8 +269,11 @@ Make a Static Typography Piece
 ### 8:30pm 👨🏻‍💻 Technical Demo
 
 * Breaking data down into components
+* Fonts as Vectors (Arrays of Objects)
+* Representing Data Containers (Objects)
 * Case Study: Slit-scanning
 * Case Study: Image Transcription
+* Multi-Agent Systems (particles)
 
 ## ✏️ Week 4 Homework
 
@@ -296,8 +298,9 @@ Make a Static Typography Piece
 ### 8:30pm 👨🏻‍💻 Technical Demo
 * Flow
 * Using math, flow over time, representing movement
-* Following polyline paths
-* Mouse movements
+* Animation functions, easing
+* Following polyline paths — spirals etc.
+* Mouse movement paths
 
 	
 ## ✏️ Week 5 Homework
