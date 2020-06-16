@@ -108,21 +108,45 @@ So far we've talked about translation and rotation. Shearing and scaling are als
 
 When you have a particular layout in mind, combining these transformations with an easing tool may help you lay things out. `map()` is an excellent, general use tool for doing this!
 
-Consider a straight line of text with different rotations for each character going from 45 degrees to -45 degrees:
+`map()` is a function to go from one set of boundaries to another. For example, if you want to go from [0, 10] to [0, 100] with a value of 3, you can use:
 
-|image|visual|
-|---|---|
-|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dVTD1VwsLr0_CpQKQEUrdULd2pEvzEFHcl4DlNgdupaDPRYUc0p4Il7OelIuN5OGLQQWWftZpu4wtRKjHsxJAiYxS25gfUkDyTfxaK42FJHEAATHgoNYx-rYtno9GOJ2KqoVohj_44lTJ3a6J3XrRy3A=w493-h495-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fzCSxAjUwRlragRZgyVzGgKPCwAP3CoU6r8S1NdQe8DkEEZgQ7gshEfqeo6P7Eues90cQ5SxavfRUTDmUrXjFutkKrTnsY6vYpDWMmhVlGU7qfSZHTY3i2vMY3EQB3mVF3sdzHVCn7TYme4wD9Z3USMQ=w544-h542-no?authuser=0"/>|
+```js
+let mappedValue = map(3, 0, 10, 0, 100)
+// mappedValue === 30
+```
 
-[Sketch Example](https://editor.p5js.org/kyeah/sketches/mKa8letYB)
+![](https://lh3.googleusercontent.com/pw/ACtC-3d686uUzdCq8IR6I05hbTi7hv6LDfx05-xguz-QtUaLPjymqaw3jpby3mq8r5o0yaftUceuRUosh6YKLxes2_S9jdUXRImxHC9SECY_lhIiBa7XggOhAoV2xHth1uYjufcErK9zxxOBMMdrMqdZjIyccg=w1307-h563-no)
 
-or a "rainbow" of characters rotating around the origin:
+We've been able to get by without this by doing our own math (think: `column * xStep`), but with rotations it gets pretty confusing. `map()` is a much more accessible way to lay things out evenly.
+
+Consider a "rainbow" of characters rotating around the origin:
 
 |image|visual|
 |---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ8AO32ItzCnK5R04_lqoO7YwYbzkEbSSIvtM-OsH3TDMEpE18okncN046eTdHzLtgD9GKrW9jd1QkHOnxHDsLSv93upSNQGG242qxgjAtxFp4s7mUReMRdEF0B6emGey6uuVRMdsAeSqD9Dc9xCy7Ng=w499-h498-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dPYa2XLQGgzRazNMZBJRXS9fVauL82bky8a_GOZ8bD0yXK5opE3AFdQResl6jfG-CdzFeJcwWRSZ_fDh5CwdNs3tupRrcr4jq6fjCHpq9sIaraW-BwK3Nw_LPGrRnCS8SJyT366-Z01XBOkHae9ndZUg=w496-h497-no?"/>|
 
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/C3WmMxlKD)
+
+Each character gets it's own rotation angle from -45 to 45 degrees:
+
+```
+for (let c = 0; c < 10; c += 1) {
+  let angle = map(c, 0, 9, -45, 45)
+  ...
+}
+```
+
+Visually, it may look like this:
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3fyjEQ14qQDr_i_SV4JKuiODiBehswDP83USktJtPXHrRhaV0j94l-U7LE9tzBwCuXWutiqp6CJs2s1gqUyHDWro8NuMQFXyqTLF0DRg-ElxQL5xbJnbdwe4Lpv4mB-4DZDILRrnNiSDzy9iI6kF8WNDw=w1297-h716-no)
+
+In the following example, we use `map` twice to calculate both an X coordinate and a rotation based on which letter we're on:
+
+|image|visual|
+|---|---|
+|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dVTD1VwsLr0_CpQKQEUrdULd2pEvzEFHcl4DlNgdupaDPRYUc0p4Il7OelIuN5OGLQQWWftZpu4wtRKjHsxJAiYxS25gfUkDyTfxaK42FJHEAATHgoNYx-rYtno9GOJ2KqoVohj_44lTJ3a6J3XrRy3A=w493-h495-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fzCSxAjUwRlragRZgyVzGgKPCwAP3CoU6r8S1NdQe8DkEEZgQ7gshEfqeo6P7Eues90cQ5SxavfRUTDmUrXjFutkKrTnsY6vYpDWMmhVlGU7qfSZHTY3i2vMY3EQB3mVF3sdzHVCn7TYme4wD9Z3USMQ=w544-h542-no?authuser=0"/>|
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/mKa8letYB)
 
 ## 5. WebGL and 3D
 
