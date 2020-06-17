@@ -263,6 +263,7 @@ Make a static or kinetic typographic piece.
 ### Additional Resources
 
 * [Morphogenesis Resources](https://github.com/jasonwebb/morphogenesis-resources) by Jason Webb
+* [Periodic Functions](https://github.com/scijs/periodic-function) for animation and layouts
 
 ## Section 4: Glitch Art
 
@@ -321,6 +322,9 @@ Make a static or kinetic typographic piece.
 ### Additional Resources
 
 [The Recode Project](http://recodeproject.com/): An Active Archive of Computer Art
+
+### Technical Resources
+[Mathematics of Animation](https://www.youtube.com/watch?v=KbxJWx-ue0U&feature=youtu.be)
 
 ***
 ## General Resources
