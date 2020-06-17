@@ -54,7 +54,7 @@ Subject to adjustment.
 |-----|----|-----------|------
 |1|[Introductions, Overview, and Conceptualizing Programs](#section-1-overview-and-conceptualizing-programs)| [Lecture Video](https://youtu.be/EfV6pgSjzrk) <br> [Lecture Slides](Slides/Generative_Type_Week1.pdf) <br> [Tech Demo Video](https://youtu.be/qJpEIt8bzR0) <br> [Tech Demo Slides](Slides/Generative_Type_Week1_Programming.pdf) <br> [Sketch Collection](https://editor.p5js.org/kyeah/collections/y65SYurzv) |Interactive piece <br> + Readings
 |2|[Art, Data, and Grids](#section-2-art-data-and-grids)| [Discussion Notes](https://docs.google.com/document/d/1mI3yfyk8NtKgOFxfLZkhXWQB_QtenQdf4MssuaiIuoo/edit?usp=sharing) <br> [Lecture Slides](Slides/Generative_Type_Week2.pdf) <br> [Technical Tutorial](tutorials/2-grids-and-automation.md) <br> [Technical Tutorial Video](https://youtu.be/GvdYWSRKwLg) <br> [Sketch Collection](https://editor.p5js.org/kyeah/collections/M93qYCeRI) <br> [Webcam Demo Video](https://youtu.be/pqgiNu_-aLA)<br> [Webcam Demo Sketches](https://editor.p5js.org/lynneyun/collections/upNkQJhXo) |Grid-inspired composition <br> + Readings
-|3|[Transformation](#section-3-transformation)|[Technical Tutorial](tutorials/3-transformation.md)|Static or kinetic typography composition<br> + Readings
+|3|[Transformation](#section-3-transformation)|[Lecture Video](https://youtu.be/-sRZFiCLNX0) <br> [Lecture Slides](Slides/Generative_Type_Week3.pdf) <br> [Technical Tutorial](tutorials/3-transformation.md)|Static or kinetic typography composition<br> + Readings
 |4|[Glitch Art](#section-4-glitch-art)||Glitch Art-inspired composition<br> + Readings
 |5|[Movement and Animation](#section-5-movement-and-animation)||Mini Project Ideation
 |6|1:1s — Ideation and Planning||Mini Project Draft
