@@ -118,4 +118,6 @@ There's no big harm in doing it this way so choose what works for you as you're 
 Although P5 doesn't have native variable font support, it can manipulate the DOM and HTML/CSS. The text does not live in the canvas and cannot use most p5 native 
 functions, but can manipulated by updating the CSS.
 
+![](https://lh3.googleusercontent.com/pw/ACtC-3ffvF6YWuPTX-BwPrwPZmL-322SBsk5l8OfPZzzlakGxCOkMN2n3e5mIW6pGYccKnFhWvIdEGao3FGFYfDa8KbP-ATNr1VFgI5Xyp-zjGz-C6RLi-1k9pZw3CCVfXK17vEY-gOGx6WY_iD0kzTcL__3RA=w392-h356-no?authuser=0)
+
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/JBdfVROrw)
