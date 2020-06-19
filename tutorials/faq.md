@@ -1,4 +1,4 @@
-# Q&A and Random Tidbits
+# FAQ and Random Tidbits
 
 * [Mirroring Images](#mirroring-images)
 * [if {} else if {} else {}](#if--elseif--else)
@@ -56,6 +56,18 @@ if (x < 100) {
 }
 ```
 
+With an `else if` statement, it is implied that the _previous_ conditions were false. For example:
+
+```js
+if (x < 100) {
+  ...
+} else if (x < 200) { 
+  // Here we know that x is at least 100 (x ≥ 100)
+} else if (x < 300) {
+  // Here we know that x is at least 200 (x ≥ 100 AND x ≥ 200)
+}
+```
+
 Compare this to using `if` statements:
 
 ```js
@@ -92,8 +104,8 @@ We can _remove_ the overlapping conditions by making them more strict:
 
 ```js
 if (x < 100) { ... }
-if (100 <= x && x < 200) { ... } // run if 100 <= x AND x < 200
-if (200 <= x && x < 300) { ... } // run if 200 <= x AND x < 300
+if (100 <= x && x < 200) { ... } // run if 100 ≤ x AND x < 200
+if (200 <= x && x < 300) { ... } // run if 200 ≤ x AND x < 300
 
 ```
 
