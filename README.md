@@ -80,6 +80,7 @@ Class materials: Grid paper
 ### Talking to Machines 
 
 -  Language as a Code System
+	-  [Quipu](https://en.wikipedia.org/wiki/Quipu) : Data weaving
 -  _Language is Image, Paper, Code & Cloth_ by Francesca Capone excerpt
 -  [First human computers](https://www.space.com/34619-women-computers-of-nasa-jpl.html)
 
