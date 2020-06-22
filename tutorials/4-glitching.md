@@ -210,6 +210,8 @@ If we do this many, many times, we can begin to see an odd sort of growth happen
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cp2ItozOE3nUaT6ZqOmDaI4Tlfan0XJNkTl7Zybr8f6eOTI7pN-wIIvRE_9bRqr5F5zIDUgItx2MtY2GBWv9NXxJtnGgxIaHttWbge1FOgxVA1o4qo0m7xpF-hfnmKLyFvCfFC8rQsmZjQxQHU3NXBUw=s1000-no)
 
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/YU0Opxyqd)
+
 For folks interested in the Game of Life or similar cellular automata, this hopefully gives you some inspiration on how you can apply those algorithms in a typographic context.
 
 ### Modifying objects over time
@@ -224,7 +226,7 @@ for (let pt of points) {
 }
 ```
 
-![]()
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/Rkg1uFfuF)
 
 This type of modification would add up over time, so as your program progresses, the text would slowly become unreadable. Another approach would be to keep points the same, and only add randomness when you draw them:
 
@@ -245,6 +247,8 @@ Another way to use text points is to use them as a re-usable template. In this e
 |sampleFactor = 0.1|sampleFactor = 0.5|
 |---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3f0Ikk4Ho3nhh9DWakclxLKATl97vqmqO9J_xO0KC-5q2nPjPUD9Q4M8uXy7yXOeNv_7KVPY9dFSBHEN8BMfD0dZXxDcnBEl40fT3jl0DFtDdiy6wq9oX5B8RjzxdaAWhoU7k53zGzMVY8CHkYQ88rvaQ=s1500-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dyjnt8qsddhqPmHaWnmrKAGHzYplqZAJW3UrjR_S7H7HwgnveRyctEGgWlTGMNB-pvvLZKck2uSGY3RNqsu7XUCiIZaqhsBv1CEISpFyWxp0QNWqec0V2Zip1rfXc7VuRt5rB2N0bSe-qQDQ44IMpUdA=s1500-no?authuser=0"/>|
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/QTttEhIzb)
 
 ### Randomness vs Perlin Noise
 
@@ -361,6 +365,9 @@ I recommend playing with different knobs and levers to see how it effects the fi
 |---|---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3fvtdqQnRN3cUqqmypUga89gAEftmGC1pw6BfCt6cE2fZWnNsGK-Ttt2G8m7jsYr6r6nGs5_aJZDm2EEOco159V0mtPXdJVwGig2YOiuyjd9KAUVWtNbU1L5BGFRPBj_nrpuEXn4zr3pthN4EiM5YTwUA=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3evmZDNrYfTr1LNtxT-qEk2MFEc6umVbSUDfLEtNxEPNCZvnQR7P_BKv1o5LA-R_CwrEN3-SXuxpheW5OORsedn_TaaM0XOkFa62RcyHuoY5j9MB09eMJCVUjaxLhCM_LuLQM4PTrKrdJq-gScb-pI86Q=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3cx5yE-XwtKZ-JNHzbv0HJi4ilhxuEVfyE24V0gI2O2JOaA9e5Mo_ymVMyeB9Gg1lIBDFgtuf97UF_8cyxMoHO001Ug6HhxXsjprVi5zTUlGVx6fq1zuZaLNG-yT0_NK9VDe3aCDlyBkKpipFkUcwGBpA=s800-no"/>
 
+[Sketch Example 1](https://editor.p5js.org/kyeah/sketches/y137XUugc)
+[Sketch Example 2](https://editor.p5js.org/kyeah/sketches/Gi1MViqEv)
+
 Do you want things more cube-y? Curved? blinder'd? These are all attributes that you can affect using `copy`.
 
 ### Color Glitching
@@ -390,3 +397,5 @@ copy(tintedLayer, ...)
 |||
 |---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1py-pQL1F-jH2Kaeu6dTuSZyoGQyjGUG-MnEgRYTwQekE7xmkPedriOC3m5ABHSr5hg7xpS9X4OunKLmeEHibgdHWDGKQHx5WLh7U3mFdcVWmu1OPFtRPXiXv2qnCqWUgb5ZF5e3M7CCtwkz6q0COzw=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fnSRHdsi8bMND-QCy6clFSGP-KEA8Ix8OotyyPiqcca31AIohLNSpTzbsXhf-NUno5q4BOOt1dfgSRByc7WZ2zhtsi-DFgdnUBxTd6rCnVnhOx3mIcrtvg6uXwhdVJjD_JM9FBX969z_NMrGkI3rYMFg=s800-no?authuser"/>|
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/FHT2hTuwr)
