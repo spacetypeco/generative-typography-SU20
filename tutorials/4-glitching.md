@@ -2,6 +2,8 @@
 
 So far, we've been working with text as images. Let's talk about some ways to break text down into its components! We'll talk about independent objects in programs, how to re-build interesting shapes from the ground up, and then a little bit of how we can reconstruct the generated image pixels in order to make something new and glitchy.
 
+[Sketch Collection](https://editor.p5js.org/kyeah/collections/wW-igCan0)
+
 ## textToPoints
 
 P5js has a very accessible function for breaking text down into individual points:
