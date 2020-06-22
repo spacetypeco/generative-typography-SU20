@@ -300,7 +300,7 @@ Make a static or kinetic typographic piece.
 
 ### Optional Readings
 * [The Aesthetics of Failure](Readings/Cascone_Aesthetics.pdf) by Kim Cascone
-* [GTLCH AESTHETICS](Readings/Morandi_Iman 2004_Glitch_Aesthetics.pdf) by Iman Moradi
+* [GTLCH AESTHETICS](Readings/Morandi_Iman%202004_Glitch_Aesthetics.pdf) by Iman Moradi
 
 ### If you want to read more...
 (Similar material as above but different takes)
