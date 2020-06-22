@@ -272,11 +272,13 @@ Make a static or kinetic typographic piece.
 
 ### 7:15pm 📖 Class Reading Discussion 
 
-### 7:45pm 👩🏻‍💻 What Does Glitching Mean?
-* Glitch Screens
-* Transcribing data types to another
-* Manipulating Data
+### 7:45pm 👩🏻‍💻 The Aesthetics of Data Bending
+* The Aesthetics of Failure
+* John Cage, 4'33"
 * Glitch Art as Style & Statement
+* Examples of Digital Glitch Art
+* DIY Photo Glitch Exercise
+* Typography inspired by Glitch
 
 *~ break ~*
 
@@ -292,11 +294,28 @@ Make a static or kinetic typographic piece.
 ## ✏️ Week 4 Homework
 
 ### Readings
+* [Glitch Aesthetics](https://loriemerson.net/2014/10/01/glitch-aesthetics/) by loriemerson
 * [Lossy text compression, for some reason?!](https://youtu.be/meovx9OqWJc) by Allison Parrish
+* [GltchLnguistx: The Machine in the Ghost / Static Trapped in Mouths](http://lab404.com/glitch/) (Note: You may have to Google your way through Flash links)
+
+### Optional Readings
+* [The Aesthetics of Failure](Readings/Cascone_Aesthetics.pdf) by Kim Cascone
+* [GTLCH AESTHETICS](Readings/Morandi_Iman 2004_Glitch_Aesthetics.pdf) by Iman Moradi
+
+### If you want to read more...
+(Similar material as above but different takes)
+
+* [The Glitch Moment(um)](Readings/The Glitch Moment(um).pdf)
+* [Thoughts on Glitch[Art]v2.0](Readings/Thoughts on Glitch Art v 2.0.pdf)
+* [Compression Aesthetics: Glitch from the Avant Garde to Kanye West](http://ivc.lib.rochester.edu/compression-aesthetics-glitch-from-the-avant-garde-to-kanye-west/) by IVC Author
+* [100 Takes on 'Glitches and bugs in digital art'](https://threadreaderapp.com/thread/1206076224935620609.html)
 
 ### Additional Resources
 * [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
 
+* [databending and glitch art by stAllio](http://www.animalswithinanimals.com/bent/) 
+* [The Art of PNG Glitch](http://ucnv.github.io/pnglitch/)
+* [Glitchet Resources](http://www.glitchet.com/resources)
 
 ## Section 5: Movement and Animation
 
@@ -320,6 +339,9 @@ Make a static or kinetic typographic piece.
 ## ✏️ Week 5 Homework
 ### Readings: 
 * [TyPrograms: The Shaped Typography of Computer Programs](https://nan.xyz/txt/typrograms/) by Marcus Leis Allion
+
+### Optional Readings:
+* [We Talked To The Artists Who Made A Pokemon Glitch Zine](https://www.vice.com/en_us/article/vvydw3/we-talked-to-the-artists-who-made-a-pokemon-glitch-zine)
 
 ### Additional Resources
 
