@@ -285,11 +285,10 @@ Make a static or kinetic typographic piece.
 ### 8:30pm 👨🏻‍💻 Technical Demo
 
 * Breaking data down into components
+* Representing Independent Data (Objects)
 * Fonts as Vectors (Arrays of Objects)
-* Representing Data Containers (Objects)
-* Case Study: Slit-scanning
-* Case Study: Image Transcription
-* Multi-Agent Systems (particles)
+* Case Study; Point-based Slit-Scanning
+* Case Study: Image-based Slit-Scanning
 
 ## ✏️ Week 4 Homework
 
@@ -312,7 +311,6 @@ Make a static or kinetic typographic piece.
 
 ### Additional Resources
 * [Everest Pipkin's Are.na Collection on Glitch Art](https://www.are.na/everest-pipkin/teaching-glitch-art-glitch-aesthetics-tools)
-
 * [databending and glitch art by stAllio](http://www.animalswithinanimals.com/bent/) 
 * [The Art of PNG Glitch](http://ucnv.github.io/pnglitch/)
 * [Glitchet Resources](http://www.glitchet.com/resources)
