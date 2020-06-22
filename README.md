@@ -305,8 +305,8 @@ Make a static or kinetic typographic piece.
 ### If you want to read more...
 (Similar material as above but different takes)
 
-* [The Glitch Moment(um)](Readings/The Glitch Moment(um).pdf)
-* [Thoughts on Glitch[Art]v2.0](Readings/Thoughts on Glitch Art v 2.0.pdf)
+* [The Glitch Moment(um)](Readings/The%20Glitch%20Moment(um).pdf) / [Glitch Studies Manifesto](https://amodern.net/wp-content/uploads/2016/05/2010_Original_Rosa-Menkman-Glitch-Studies-Manifesto.pdf)
+* [Thoughts on Glitch[Art]v2.0](Readings/Thoughts%20on%20Glitch%20Art%20v%202.0.pdf)
 * [Compression Aesthetics: Glitch from the Avant Garde to Kanye West](http://ivc.lib.rochester.edu/compression-aesthetics-glitch-from-the-avant-garde-to-kanye-west/) by IVC Author
 * [100 Takes on 'Glitches and bugs in digital art'](https://threadreaderapp.com/thread/1206076224935620609.html)
 
