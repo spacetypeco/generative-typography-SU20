@@ -4,7 +4,7 @@
 
 - Type@Cooper Public Workshop Summer 2020
 - 6:30–9:30pm, 2 sections (Tuesdays & Thursdays), June 2nd to Aug 6th
-- Instructors: [Lynne Yun](lynneyun.com), [Kevin Yeh](kevbk.com)
+- Instructors: [Lynne Yun](https://lynneyun.com), [Kevin Yeh](http://kevbk.com)
 - Course Discussion: Slack
 
 ## Course Description
