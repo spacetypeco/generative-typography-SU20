@@ -396,6 +396,16 @@ For example, you can imagine swapping pixel rows or columns; changing rows into 
 
 For this, it's helpful to use the [copy](https://p5js.org/reference/#/p5/copy) function. This function copies a rectangular region from an image onto the canvas. This can be used to copy a row, column, or grid square.
 
+![](https://lh3.googleusercontent.com/pw/ACtC-3eHHr7fnV8wRrtDKp2bv2hyAtV6wxC16dxcacLfHpfUMM6Z0pFkH7XU5Eb32zVOUM33gspTRX0aMXYjBoLiQvH9IvNPaMttHLGS8xvFJhPr02Np7inOfFwjsJqIVYrO2-3sXkQqVLZhB23lUkYDHkxfHQ=w1600-h800-no)
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/60LI3eA0u)
+
+It can also be used to scale source images into smaller or larger boxes:
+
+|squeeze|stretch|
+|---|---|
+|<img src="https://lh3.googleusercontent.com/pw/ACtC-3euI4F7cXnRovI3UDqF2on87SmDKjT-SZ4zZ87GVf4Vdk-BW2_OmUw_2fPah_78AMG9WjMp8Z1DdUoMO6ihzi6Bw0K4YpjjL_XE-enRnvJpPk9w6Nr4B2qUPUrlIqAjlRgrwtIlYG3ypg16zhoS8H1psg=w1600-h800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fGOBLK0F9QFQtyNXb1vASbmZ1nk5HS7ryc6Rq7OBMTODdlI1qfzNFAdgYB47jW4tmp0HTIGdGAAGvg5t6QtZo9WaKCvrRXbTBGy-UOaSPazV1SHKEl7-K91MYcdmQ-K_pLExexXusalD3ULZnj8KQBbQ=w1600-h800-no"/>
+
 For the purposes of this tutorial, let's look at how you might use this to read rows from top to bottom. Thinking like a scanner, we might read rows of height 5 (pixels) — and then we might think of a glitched effect, where the rows we read are shifted horizontally by a random number of pixels:
 
 |Normal Copy|Shifted Copy|
