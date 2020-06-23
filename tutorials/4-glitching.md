@@ -418,14 +418,15 @@ I recommend playing with different knobs and levers to see how it effects the fi
 |---|---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3fvtdqQnRN3cUqqmypUga89gAEftmGC1pw6BfCt6cE2fZWnNsGK-Ttt2G8m7jsYr6r6nGs5_aJZDm2EEOco159V0mtPXdJVwGig2YOiuyjd9KAUVWtNbU1L5BGFRPBj_nrpuEXn4zr3pthN4EiM5YTwUA=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3evmZDNrYfTr1LNtxT-qEk2MFEc6umVbSUDfLEtNxEPNCZvnQR7P_BKv1o5LA-R_CwrEN3-SXuxpheW5OORsedn_TaaM0XOkFa62RcyHuoY5j9MB09eMJCVUjaxLhCM_LuLQM4PTrKrdJq-gScb-pI86Q=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3cx5yE-XwtKZ-JNHzbv0HJi4ilhxuEVfyE24V0gI2O2JOaA9e5Mo_ymVMyeB9Gg1lIBDFgtuf97UF_8cyxMoHO001Ug6HhxXsjprVi5zTUlGVx6fq1zuZaLNG-yT0_NK9VDe3aCDlyBkKpipFkUcwGBpA=s800-no"/>
 
-- [Sketch Example 1](https://editor.p5js.org/kyeah/sketches/y137XUugc)
-- [Sketch Example 2](https://editor.p5js.org/kyeah/sketches/Gi1MViqEv)
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/y137XUugc)
 
 Do you want things more cube-y? Curved? blinder'd? These are all attributes that you can affect using `copy`. And I've only covered one way to read images (row by row)! Try it out with columns or grid squares and see what you can make :)
 
 |grids!|flowy grids!|
 |---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3cKAb_LxHO58CNkXlocmgIKbVS5gbMxcLVgr7lVclyrSeyMSdmYGoWD9j6sqtSi1_tZpmMLZNeEJLoD-jSjgoExhhZMF0TM7UG9yf37S_5SEWJbrhiFhCkm70NUT1srtZGWvECB0ob6kt78LfYIe3GzXw=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dLflumDnLl5fGelBpSwnbtqNfZpbYGlxWGq21v8-6AVqqR3JrDDT6GJPk1yvmOWL0nGJP294f8hj0UhBAv2XmiO61O9iR27I1ZamlkxxfY4nQba0JwKe-cFhK-kpwk6P2Jl3fYS9mtTUyLBxFIerEFjw=s800-no"/>|
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/Gi1MViqEv)
 
 ## Color Glitching
 
