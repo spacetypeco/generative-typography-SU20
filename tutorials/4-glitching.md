@@ -313,7 +313,7 @@ Depending on your visual goals, you can use random and noise in various ways to 
 
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3dKPEjoQ_uasK3R454rwb8ErmStQDHMAAMZ8ZZ9c9p7eziwL7BSpFxGGALcxnKdfDfhKK93jm8Qgvifv9ChUchzUAylIweIMDZvFpoVsR_4e3DjxB5fuQsiBd1PbwRPbXcQ7_9QbNEw5392cA6mxGI6-Q=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fWoyLDLNF5sTvXDQ_XFXh-PH9Nv9Zy4q-Oi3OYVl-Hsim2Nj3fZ_SWlUoh2z5OH5WkQ6ILnxrwMZx7DJy-Xb9PaB8HtvzfPOaSAl1y7oe0flaWYaNZz7IIBf2SrzDgk7b6QP3AglJW0ApNo8yT9yhVlg=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3f0U1S3bXk2oDemhcAff3MQZFqk4IBpLcxEB6mrcq5O9xUXG7JRcEAK6cZj2IyoaTQTOnwmroJK2k7vYOpwUM-oX30pJLlq8xAjkKlviF9-B3bb-dulu1DfidcLTTGEtGj4rKtK8_AetIKpFOwlodzoVA=s600-no"/>|
 |---|---|---|
-|<img src="https://lh3.googleusercontent.com/pw/ACtC-3frqoGKYiKA0_Q02MeuXNrqCSx5GHWuAnqMVSnxTIb7nWC5LYeolbz8igS0WhudR94M1ChIgwQXbuDJUsPTy4JXWiNw0ZeKRnZjZU1g7hBY5XjjTsLvxB0fiFZyuQeGFaHWxHQmuYlqHWZcDph8RbVwxg=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dI9D4JTf7t4OZnK7PSxVIVa0zWrnFMeJ6wDrZ5Aj-lavx0NveQPRvpF1WyOj7j88jlEdRHZD0MG7nLjZi77TI6y_0gXEGCEAEFyaond8cb692Jd3fupwVhMunxIai7IeU0Rtv1id-oBPKaUP8cckDK4g=s600-no?authuser=0"/>|<img src=""/>|
+|<img src="https://lh3.googleusercontent.com/pw/ACtC-3frqoGKYiKA0_Q02MeuXNrqCSx5GHWuAnqMVSnxTIb7nWC5LYeolbz8igS0WhudR94M1ChIgwQXbuDJUsPTy4JXWiNw0ZeKRnZjZU1g7hBY5XjjTsLvxB0fiFZyuQeGFaHWxHQmuYlqHWZcDph8RbVwxg=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dI9D4JTf7t4OZnK7PSxVIVa0zWrnFMeJ6wDrZ5Aj-lavx0NveQPRvpF1WyOj7j88jlEdRHZD0MG7nLjZi77TI6y_0gXEGCEAEFyaond8cb692Jd3fupwVhMunxIai7IeU0Rtv1id-oBPKaUP8cckDK4g=s600-no?authuser=0"/>||
 
 ## Shape-based Art
 
