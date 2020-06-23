@@ -177,6 +177,8 @@ function setup() {
 
 ```
 
+![](https://lh3.googleusercontent.com/pw/ACtC-3dMTZ9N0qC5Tz6JOnbBsCDVh-Hhd4_n4DYNdEX2rjUC3cxgiV3dB7gv3okxiDxixVZjy52PhHoAxZ1Oq-jofpKqynxLlN887wmxi8WEv33KNNEqjbiQnv-t8KI0MYhgrxuMavtBSe2fvdbM6AjAOAWvOg=s1000-no)
+
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/ByhZB7J-1)
 
 ## Point-based Art
