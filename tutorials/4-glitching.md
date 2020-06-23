@@ -163,7 +163,7 @@ Note that this will decrease performance (because there are more points.)
 
 If you're interested in getting the exact _bounds_ of your text, you should take a look at [font.textBounds](https://p5js.org/reference/#/p5.Font/textBounds). These bounds are generally helpful for layouts — for example, centering your text visually instead of using the typeface attributes:
 
-```
+```js
 function setup() {
   points = font.textToPoints(...)
   bounds = font.textBounds(...)
