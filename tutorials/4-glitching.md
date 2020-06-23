@@ -22,15 +22,13 @@ If you `print` the list of points, you'll see them described as `Objects`:
 print(points)
 ```
 
-<img style='max-width: 600px' src='https://lh3.googleusercontent.com/pw/ACtC-3d1BA0tCoA_AleFi5TTAtUP1Ye4awvV2eD7yRYqEZ0_sGIPuZt5-RpRwOmTapVezPln0LUrUGYqRoSpqEbiTZsObdQvfpbQ07djBcxY1IFF7JuAt17Apz611XYyzlPow4N1sZ-fpTfxfX5rkSzDo08o_g=w1824-h624-no'/>
-
 And if you expand this in the console, you can view individual point objects:
 
-<img style='max-width: 600px' src='https://lh3.googleusercontent.com/pw/ACtC-3dMAaWFTDO57RlL1ujohzkjW7D3s7jnd-0Ae4L2sPeGo_t8HN4UbJkjg58GGM82NHdlcm-1f8UagqB_VoOjfPyeKIX0sOqkeViTFXZcBPWOh-7NG1OLXXsZO6Iwro6g4hkQ1LxgQth29_-3sqF2tNeZ7g=w716-h428-no'/>
+|points list|individual points|
+|---|---|
+|<img style='max-width: 600px' src='https://lh3.googleusercontent.com/pw/ACtC-3d1BA0tCoA_AleFi5TTAtUP1Ye4awvV2eD7yRYqEZ0_sGIPuZt5-RpRwOmTapVezPln0LUrUGYqRoSpqEbiTZsObdQvfpbQ07djBcxY1IFF7JuAt17Apz611XYyzlPow4N1sZ-fpTfxfX5rkSzDo08o_g=w1824-h624-no'/>|<img style='max-width: 600px' src='https://lh3.googleusercontent.com/pw/ACtC-3dMAaWFTDO57RlL1ujohzkjW7D3s7jnd-0Ae4L2sPeGo_t8HN4UbJkjg58GGM82NHdlcm-1f8UagqB_VoOjfPyeKIX0sOqkeViTFXZcBPWOh-7NG1OLXXsZO6Iwro6g4hkQ1LxgQth29_-3sqF2tNeZ7g=w716-h428-no'/>|
 
-Objects are often used to represent many independent things with the same shape. 
-
-In this example, textToPoints returns many objects with the following shape:
+Objects are often used to represent many independent things with the same shape. In this example, textToPoints returns many objects with the following shape:
 
 ```js
 {
