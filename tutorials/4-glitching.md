@@ -451,7 +451,7 @@ tintedLayer.image(img, 0, 0)
 copy(tintedLayer, ...)
 ```
 
-The examples below use the code snippet above within a for-loop in order to tint the image a different color every time we copy a row to the canvas:
+The examples below tint the image in a different color every time we copy a row to the canvas:
 
 |Red tints|Red or blue/green tints|
 |---|---|
