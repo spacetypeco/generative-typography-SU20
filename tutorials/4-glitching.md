@@ -341,7 +341,11 @@ endShape(CLOSE)
 
 ### Cleaner Outlines
 
-This is not too pretty, so let's try to remove the lines connecting our outline and counters (doughnut holes!) 
+This is not too pretty, so let's try to remove the lines connecting our outline and counters (doughnut holes!)
+
+We want to draw separate shapes, so anytime we detect a counter, we want to end the current shape and start a new one:
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3d-y_uGnz0ilaIeWD1I-Zxe7_IwVxJQnwPpzuJ20UPw2E0rAeMZ6jL3hgO5z4azme7IK2tXK10Llb3XJahkluM_BAwdj9trioHLVDqiWLVeLjTW_cdar9xAqXUKKO_p837bUhx4tTAlfN8B4gWGNWv9wg=w1006-h980-no) 
 
 A quick and not-very flexible way of detecting when we've entered a new shape/counter is to see how far we are from the last point we drew. If we are sufficiently far enough, it's probably not part of the same shape/path.
 
@@ -355,6 +359,9 @@ for (let pt of points) {
     endShape(CLOSE)
     beginShape()
   }
+  
+  vertex(...)
+  prevPt = pt
 }
 endShape(CLOSE)
 ```
@@ -365,7 +372,9 @@ endShape(CLOSE)
 
 ### Fills and Contours
 
-Instead of outlining our text, we can also fill it in! However, because doughnut holes are a thing, we have to use the [contours](https://p5js.org/reference/#/p5/beginContour) feature to cut holes in our shapes.
+Instead of outlining our text, we can also fill it in! However, because we would be filling in our doughnut holes, we have to use the [contours](https://p5js.org/reference/#/p5/beginContour) feature to cut holes in our shapes. This way, we'd have exactly one shape, minus a few cutouts.
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3dJiGth479gZWhCMh8LAi1wVVgwfZXs24j_nIh_uObt61i4hy9eZFpWMuCGtXuKONshaCl_qjrXTu-0hWTjpFuV9ZmZM51kaUGtSkeldPEZAJ2Wnx1v6pEyRq2Tuu36-ssvvesj3a8crFfAKS0kZ-1HBA=w487-h822-no)
 
 > NOTE! Contours do not work in WEBGL.
 
