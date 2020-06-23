@@ -159,6 +159,26 @@ Note that this will decrease performance (because there are more points.)
 |---|---|
 |<img src='https://lh3.googleusercontent.com/pw/ACtC-3dAYia_Rs6WROP41f3E03bK6-V8vXF_0ZVNJMnuWnrcVIqU-3-59q0pierQTEDw2Hd7HEQB_wuUkF9Ihd95YQWSc_oEjp04-KZ9IozA77w8MwfEtkesyKHDvBhKqTRhJZ40jJtkze9jzOBePppfsLGVKQ=s1000-no'/>|<img src='https://lh3.googleusercontent.com/pw/ACtC-3cDCLUmTS3Phzp1sDXwkz1IGP1MtUTAjFzD75sqqfTmdsJZafGmabYQCzr2tkKIBd16lB4pVWWG-FFtTVnBNWyIJvMPg82An0xuscruKYd7Z2lyOwNdhoVAoioVNxGc5kjVNbCqRrl_x4dfctBAG37Hkg=s1000-no'/>|
 
+### Bounds
+
+If you're interested in getting the exact _bounds_ of your text, you should take a look at [font.textBounds](https://p5js.org/reference/#/p5.Font/textBounds). These bounds are generally helpful for layouts — for example, centering your text visually instead of using the typeface attributes:
+
+```
+function setup() {
+  points = font.textToPoints(...)
+  bounds = font.textBounds(...)
+  
+  // Center all points around the origin
+  for (let pt of points) {
+    pt.x = pt.x - bounds.x - bounds.w/2
+    pt.y = pt.y - bounds.y - bounds.h/2
+  }
+}
+
+```
+
+[Sketch Example](https://editor.p5js.org/kyeah/sketches/ByhZB7J-1)
+
 ## Point-based Art
 
 By breaking down a piece of text into its individual components, we open up a lot of possibilities. This will cover only a couple of ideas that I think are interesting :)
@@ -248,7 +268,7 @@ Another way to use text points is to use them as a re-usable template. In this e
 
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/QTttEhIzb)
 
-### Randomness vs Perlin Noise
+## Glitching with Randomness and Perlin Noise
 
 So far, we've been using `random` to introduce variation into our sketches. 
 
@@ -259,9 +279,9 @@ function draw() {
 }
 ```
 
-For folks looking for smoother and more predictable "randomness", Perlin noise is a great tool to be aware of :)
+Before we get into glitching, I'd like to introduce a similar tool which gives us a smoother and more predictable "randomness" – Perlin noise :)
 
-Here's an series of x values from [0, width], calculated using `random` vs. `noise`:
+Here's a series of x values from [0, width], calculated using `random` vs. `noise`:
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fRi4pbuti0tfeus8rodAqZIS12iUdTVBrTbd9tg4n2G4y4H482MRZ-SqzWKjYY3Zxqru5l3XTcbKe0sxy8kIoi-gCiFNw8qu6yUORme2EGy9siXvC1unGsTEBVyaHVz1A9L0PoDSsuhYQGZTfk0XwfDg=s600-no)
 
@@ -276,44 +296,24 @@ function setup() {
   noisePosition = random(1)
 }
  function draw() {
-  // Grab a value from the graph ([0, 1]) and scale it to the canvas width
+  // Grab a value from the graph and scale it to the canvas width
   let noiseX = width * noise(noisePosition)
   ...
   
-  // Move forward slightly on the curve
+  // Move forward slightly on the graph
   noisePosition += 0.01
 }
 ```
 
-Maybe we start at `noisePosition = 0.05` and move in 0.01 increments to 0.60:
+As an example, maybe we start at `noisePosition = 0.05` and move in 0.01 increments to 0.60 and beyond:
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3cXmRWih45sbIRbh3k2_qlmFSEvm8bXuaYTGg_SLGXkwE_5ewtRMIEcE2NBq8qVm7taCrqzxLjVCJ-ha6j5wEG8x-vTH8qzu1nVVCC-CODLM6udkxRcwOh4bWW7dWXr-8xnVu5QSKUkcwx-b4ri6OOdvg=w1570-h408-no)
 
-Depending on your visual goals, you can use random and noise in various ways to achieve different effects. I won't go too far into implementation details, but you can see the variety of use cases below!
+Depending on your visual goals, you can use random and noise in various ways to achieve different effects. I won't go too far into implementation details, but you can see the variety of use cases below when combining it with our previous extrusion examples!
 
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3dKPEjoQ_uasK3R454rwb8ErmStQDHMAAMZ8ZZ9c9p7eziwL7BSpFxGGALcxnKdfDfhKK93jm8Qgvifv9ChUchzUAylIweIMDZvFpoVsR_4e3DjxB5fuQsiBd1PbwRPbXcQ7_9QbNEw5392cA6mxGI6-Q=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fWoyLDLNF5sTvXDQ_XFXh-PH9Nv9Zy4q-Oi3OYVl-Hsim2Nj3fZ_SWlUoh2z5OH5WkQ6ILnxrwMZx7DJy-Xb9PaB8HtvzfPOaSAl1y7oe0flaWYaNZz7IIBf2SrzDgk7b6QP3AglJW0ApNo8yT9yhVlg=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3f0U1S3bXk2oDemhcAff3MQZFqk4IBpLcxEB6mrcq5O9xUXG7JRcEAK6cZj2IyoaTQTOnwmroJK2k7vYOpwUM-oX30pJLlq8xAjkKlviF9-B3bb-dulu1DfidcLTTGEtGj4rKtK8_AetIKpFOwlodzoVA=s600-no"/>|
 |---|---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3frqoGKYiKA0_Q02MeuXNrqCSx5GHWuAnqMVSnxTIb7nWC5LYeolbz8igS0WhudR94M1ChIgwQXbuDJUsPTy4JXWiNw0ZeKRnZjZU1g7hBY5XjjTsLvxB0fiFZyuQeGFaHWxHQmuYlqHWZcDph8RbVwxg=s600-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dI9D4JTf7t4OZnK7PSxVIVa0zWrnFMeJ6wDrZ5Aj-lavx0NveQPRvpF1WyOj7j88jlEdRHZD0MG7nLjZi77TI6y_0gXEGCEAEFyaond8cb692Jd3fupwVhMunxIai7IeU0Rtv1id-oBPKaUP8cckDK4g=s600-no?authuser=0"/>|<img src=""/>|
-
-### Bounds
-
-If you're interested in getting the exact _bounds_ of your text, you should take a look at [font.textBounds](https://p5js.org/reference/#/p5.Font/textBounds). These bounds are generally helpful for layouts — for example, centering your text visually instead of using the typeface attributes:
-
-```
-function setup() {
-  points = font.textToPoints(...)
-  bounds = font.textBounds(...)
-  
-  // Center all points around the origin
-  for (let pt of points) {
-    pt.x = pt.x - bounds.x - bounds.w/2
-    pt.y = pt.y - bounds.y - bounds.h/2
-  }
-}
-
-```
-
-[Sketch Example](https://editor.p5js.org/kyeah/sketches/ByhZB7J-1)
 
 ## Shape-based Art
 
