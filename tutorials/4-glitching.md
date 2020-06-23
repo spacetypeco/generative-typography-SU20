@@ -321,23 +321,61 @@ function setup() {
 
 Another way to use textToPoints is to draw shapes using the provided points. For example, we can connect all of the given points using lines.
 
-### beginShape()
+### Outlines with beginShape()
+
+[Documentation](https://p5js.org/reference/#/p5/beginShape)
+
+If you connect all the points from `textToPoints` using the shape methods, you can get something resembling your text!
+
+```js
+beginShape()
+for (let pt of points) {
+  vertex(pt.x, pt.y)
+}
+endShape(CLOSE)
+```
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3cqWF1gZhdQIexyLvQkXW3RJVoqcw6Nzvk6WVSgNH0VbcOOYaJwUejXKSsAcIU_N2RE8b3ZkNb7H6rJSAx21T-xYVYV6W9zVmawnwYynv27cehN28skWFVEkfjO7gfXbMqUoHS9hSlDjSzckvyoiwR6jA=s1000-no)
 
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/icQ4qSNX4)
 
-### Tips for working with shapes using text points
+### Cleaner Outlines
 
-Counter breaks
+This is not too pretty, so let's try to remove the lines connecting our outline and counters (doughnut holes!) 
+
+A quick and not-very flexible way of detecting when we've entered a new shape/counter is to see how far we are from the last point we drew. If we are sufficiently far enough, it's probably not part of the same shape/path.
+
+```
+let prevPt = points[0]
+
+beginShape()
+for (let pt of points) {
+  // If we're far enough, close the current shape and begin a new one.
+  if (ptDistance(prevPt, pt) > 20) {
+    endShape(CLOSE)
+    beginShape()
+  }
+}
+endShape(CLOSE)
+```
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3fqeAq-DvI--oRq3mYzlr86vdDpPPvPqrcKWjrGBLbPQpA_dP3pnwQbD9pxwYopuXWAlQIhDFC8vlaZo6YER7J1BvIu78-0s0AFHSh-okQkI1qixG4U72IvSnZAp-bvyG6PWof0Wi-l13je9_4JmzzGkg=s1000-no)
 
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/Itx7Pmh5d)
 
-Fill + Contours
+### Fills and Contours
+
+Instead of outlining our text, we can also fill it in! However, because doughnut holes are a thing, we have to use the [contours](https://p5js.org/reference/#/p5/beginContour) feature to cut holes in our shapes.
+
+> NOTE! Contours do not work in WEBGL.
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3cKBN-jglj1WecIyrlUZl0mmeqC22zWzbzEO037hew3tBgoQ7GnL6IC_QF7hsq2TUPxHJlRBS1t380gzQ1hH1yGMRobN3cMbpj78tkA7Cs5FBsa6F7YAuK81-nKkP7ldQYdGKhuZoi5T0ceb5MX_0wZMw=s1000-no)
 
 [Sketch Example](https://editor.p5js.org/kyeah/sketches/HK6xb_H7t)
 
 ### Transformations and stretches
 
-With shapes, you'll be much more able to maintain the visual cohesiveness of the type while transforming it drastically. Think about ways you can stretch and change various parts of your shape — for example, our original slit-scanning animation relies on drawing text shapes and stretching individual points when they move past an invisible line:
+With connected shapes, you can more easily maintain the visual cohesiveness of text while transforming it drastically. Think about ways you can stretch and change various parts of your shape — for example, our original slit-scanning animation relies on drawing text shapes and stretching individual points when they move past an invisible line:
 
 ![](https://media.giphy.com/media/kaaDf1Yp2EI7mQo30g/giphy.gif)
 
@@ -349,9 +387,15 @@ For example, you can imagine swapping pixel rows or columns; changing rows into 
 
 For this, it's helpful to use the [copy](https://p5js.org/reference/#/p5/copy) function. This function copies a rectangular region from an image onto the canvas. This can be used to copy a row, column, or grid square.
 
-> Warning! Just like our video capture experiments, copy is pretty performance-intensive. If you are running into slowdowns, try a lower frame rate, or creating a static image (add `noLoop()` to the bottom of your setup function.)
+For the purposes of this tutorial, let's look at how you might use this to read rows from top to bottom. Thinking like a scanner, we might read rows of height 5 (pixels) — and then we might think of a glitched effect, where the rows we read are shifted horizontally by a random number of pixels:
 
-Here are two examples that copy an image row by row, nudging each row with a sine wave:
+|Normal Copy|Shifted Copy|
+|---|---|
+|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fvifCLeSvthSiGxcxWaNHaKeH3UT6DfIJpNetlsPuF-SBau1RolO7OGx7L3oXzjsstbYfNJTmI9j0OUvctmiLwXa9eAsyh-QilRkfBjY_47JehXlJouFRVyAhJ2SRmWH7ah689HVMyTaHGlk9CIj_0yw=s400-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3d0iXKB-cjNUZu6z78VHiNqxp2E0eMcGAIeRto8Tr6yMZNuYE98FUOHeLF0DmfoBaGgBIsoOzW7qlkqNT2HcYyXF2CZ2agjJvhXqr-BTVjdfQcr-DrMMVqB6mZn6KdHaA2eU5FyX53tC3d1i_ndbpe0DQ=s400-no"/>|
+
+> Warning! Just like our video capture experiments, copy can be pretty performance-intensive. If you are running into slowdowns, try a lower frame rate, or creating a static image (add `noLoop()` to the bottom of your setup function.)
+
+Here are two more examples using that same idea, but with a sine wave:
 
 |rowSize = 1|rowSize = 5|
 |---|---|
@@ -365,27 +409,40 @@ I recommend playing with different knobs and levers to see how it effects the fi
 |---|---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3fvtdqQnRN3cUqqmypUga89gAEftmGC1pw6BfCt6cE2fZWnNsGK-Ttt2G8m7jsYr6r6nGs5_aJZDm2EEOco159V0mtPXdJVwGig2YOiuyjd9KAUVWtNbU1L5BGFRPBj_nrpuEXn4zr3pthN4EiM5YTwUA=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3evmZDNrYfTr1LNtxT-qEk2MFEc6umVbSUDfLEtNxEPNCZvnQR7P_BKv1o5LA-R_CwrEN3-SXuxpheW5OORsedn_TaaM0XOkFa62RcyHuoY5j9MB09eMJCVUjaxLhCM_LuLQM4PTrKrdJq-gScb-pI86Q=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3cx5yE-XwtKZ-JNHzbv0HJi4ilhxuEVfyE24V0gI2O2JOaA9e5Mo_ymVMyeB9Gg1lIBDFgtuf97UF_8cyxMoHO001Ug6HhxXsjprVi5zTUlGVx6fq1zuZaLNG-yT0_NK9VDe3aCDlyBkKpipFkUcwGBpA=s800-no"/>
 
-[Sketch Example 1](https://editor.p5js.org/kyeah/sketches/y137XUugc)
-[Sketch Example 2](https://editor.p5js.org/kyeah/sketches/Gi1MViqEv)
+- [Sketch Example 1](https://editor.p5js.org/kyeah/sketches/y137XUugc)
+- [Sketch Example 2](https://editor.p5js.org/kyeah/sketches/Gi1MViqEv)
 
-Do you want things more cube-y? Curved? blinder'd? These are all attributes that you can affect using `copy`.
+Do you want things more cube-y? Curved? blinder'd? These are all attributes that you can affect using `copy`. And I've only covered one way to read images (row by row)! Try it out with columns or grid squares and see what you can make :)
 
-### Color Glitching
+|grids!|flowy grids!|
+|---|---|
+|<img src="https://lh3.googleusercontent.com/pw/ACtC-3cKAb_LxHO58CNkXlocmgIKbVS5gbMxcLVgr7lVclyrSeyMSdmYGoWD9j6sqtSi1_tZpmMLZNeEJLoD-jSjgoExhhZMF0TM7UG9yf37S_5SEWJbrhiFhCkm70NUT1srtZGWvECB0ob6kt78LfYIe3GzXw=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3dLflumDnLl5fGelBpSwnbtqNfZpbYGlxWGq21v8-6AVqqR3JrDDT6GJPk1yvmOWL0nGJP294f8hj0UhBAv2XmiO61O9iR27I1ZamlkxxfY4nQba0JwKe-cFhK-kpwk6P2Jl3fYS9mtTUyLBxFIerEFjw=s800-no"/>|
 
-A quick addendum! If you have something more colorful, you can pull and tweak colors. For example:
+## Color Glitching
+
+One last thing! colors!
+
+### Tweaking colors from original image 
+
+If you have something more colorful, you can pull and tweak colors. For example:
 
 ```js
-let pixel = image.get(x, y)
-pixel[0] += random(25) // Add random value to the red color
+let pixelColor = image.get(x, y)
+pixelColor[0] += random(25) // Add random value to the red color
+pixelColor[2] += random(25) // Add random value to the green color
 ```
 
 If you are copying pixels manually, you can set the fill directly before drawing a shape, or use the 
 [tint](https://p5js.org/reference/#/p5/tint) function. If you are experimenting with overlaying shapes/images, take a look at [blendMode](https://p5js.org/reference/#/p5/blendMode).
 
+### Adding colors
+
+Even if your original image _doesn't_ have color, you can apply a tint to add color :)
+
 In order to use `tint` with `copy`, you'll have to create new images before copying them to the canvas.
 
 ```js
-// Draw image with a tint onto a new layer
+// Draw image with a random red tint onto a new layer
 let tintedLayer = createGraphics(width, height)
 tintedLayer.tint(random(100, 255), 0, 0)
 tintedLayer.image(img, 0, 0)
@@ -394,7 +451,9 @@ tintedLayer.image(img, 0, 0)
 copy(tintedLayer, ...)
 ```
 
-|||
+The examples below use the code snippet above within a for-loop in order to tint the image a different color every time we copy a row to the canvas:
+
+|Red tints|Red or blue/green tints|
 |---|---|
 |<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1py-pQL1F-jH2Kaeu6dTuSZyoGQyjGUG-MnEgRYTwQekE7xmkPedriOC3m5ABHSr5hg7xpS9X4OunKLmeEHibgdHWDGKQHx5WLh7U3mFdcVWmu1OPFtRPXiXv2qnCqWUgb5ZF5e3M7CCtwkz6q0COzw=s800-no"/>|<img src="https://lh3.googleusercontent.com/pw/ACtC-3fnSRHdsi8bMND-QCy6clFSGP-KEA8Ix8OotyyPiqcca31AIohLNSpTzbsXhf-NUno5q4BOOt1dfgSRByc7WZ2zhtsi-DFgdnUBxTd6rCnVnhOx3mIcrtvg6uXwhdVJjD_JM9FBX969z_NMrGkI3rYMFg=s800-no?authuser"/>|
 
