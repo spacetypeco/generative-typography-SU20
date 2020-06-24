@@ -2,6 +2,7 @@
 
 * [Mirroring Images](#mirroring-images)
 * [if {} else if {} else {}](#if--elseif--else)
+* [Custom images with p5 for copy() and mask()](#custom-images-with-p5-for-copy-and-mask)
 * [Variable Fonts](#variable-fonts)
 
 ## Mirroring Images
@@ -112,6 +113,34 @@ if (200 <= x && x < 300) { ... } // run if 200 ≤ x AND x < 300
 However, that's more verbose and means we have to do more logical calculation as the human to make sure none of the conditions are overlapping as our program changes. 
 
 There's no big harm in doing it this way so choose what works for you as you're coding ( :
+
+## Custom images with p5 for copy() and mask()
+
+If you need to use image-specific operations like `copy()` or `mask()`, you can generate an image on the fly within P5.
+
+To do this, you'll need to draw on a separate graphics layer:
+
+```js
+let layer = createGraphics(400, 400)
+layer.textAlign(CENTER, CENTER)
+layer.textSize(100)
+layer.fill('white')
+layer.text('hello', width / 2, height / 2)
+```
+
+and then copy it onto an image object:
+
+```js
+img = createImage(width, height)
+img.copy(layer, 
+         0, 0, width, height, 
+         0, 0, width, height)
+```
+
+* [Sketch Example with copy()](https://editor.p5js.org/kyeah/sketches/s3RTOYFrU)
+* [Sketch Example with mask()](https://editor.p5js.org/kyeah/sketches/v-NylzfyT)
+
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3eX5MHDJtMRhZ1PabJdF1yacAiuFKK5IQIZEPSwtNiCGlAPOwxMWRy40PIaREXP2_NQ7Y0IS943mfLmCHdYJtCCW7nf9-cSHiqEnp_dJEEezEkDhwjr4qpGjyVKvKacSMsphrPDKLmiVzWL8O7L3NLYtw=s800-no" style="max-width:400px"/>
 
 ## Variable Fonts
 
