@@ -57,10 +57,10 @@ Subject to adjustment.
 |3|[Transformation](#section-3-transformation)|[Lecture Video](https://youtu.be/-sRZFiCLNX0) <br> [Lecture Slides](Slides/Generative_Type_Week3.pdf) <br> [Technical Tutorial](tutorials/3-transformation.md) <br> [Class Code Q&A and Extras](https://youtu.be/-xR84AyBcXs) | Static or kinetic typography composition<br> + Readings
 |4|[Glitch Art](#section-4-glitch-art)|[Lecture Video](https://youtu.be/lTgDiNkhG9k) <br> [Lecture Slides](Slides/Generative_Type_Week4.pdf) <br> [Technical Demo Video](https://youtu.be/578Faw9lJwE) <br> [Technical Tutorial](tutorials/4-glitching.md)|Glitch Art-inspired composition<br> + Readings
 |5|[Movement and Animation](#section-5-movement-and-animation)||Mini Project Ideation
-|6|1:1s — Ideation and Planning||Mini Project Draft
-|7|Student Presentations||Final Project Ideation
-|8|1:1s - Ideation and Planning||Final Project Draft
-|9|1:1s - Troubleshooting||Final Project Progress
+|6|Mini Project - Ideation and Planning||Mini Project Draft
+|7|Student Presentations <br> Special Guest: [Peter Cho](https://pcho.net/) ||Final Project Ideation
+|8|Final Project - Ideation and Planning||Final Project Draft
+|9|Final Project - Troubleshooting||Final Project Progress
 |10|Student Presentations||🎉
 
 ## Topic Sections
