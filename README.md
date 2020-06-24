@@ -337,6 +337,7 @@ Make a static or kinetic typographic piece.
 ## ✏️ Week 5 Homework
 ### Readings: 
 * [TyPrograms: The Shaped Typography of Computer Programs](https://nan.xyz/txt/typrograms/) by Marcus Leis Allion
+* [Materials for Computer People](https://www.behance.net/99u?title=kelli-anderson--materials-for-computer-people) by Kelli Anderson
 
 ### Optional Readings:
 * [We Talked To The Artists Who Made A Pokemon Glitch Zine](https://www.vice.com/en_us/article/vvydw3/we-talked-to-the-artists-who-made-a-pokemon-glitch-zine)
