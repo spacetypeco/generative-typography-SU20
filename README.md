@@ -292,6 +292,8 @@ Make a static or kinetic typographic piece.
 
 ## ✏️ Week 4 Homework
 
+Create a Glitch-Aesthetic inspired piece.
+
 ### Readings
 * [Glitch Aesthetics](https://loriemerson.net/2014/10/01/glitch-aesthetics/) by loriemerson
 * [Lossy text compression, for some reason?!](https://youtu.be/meovx9OqWJc) by Allison Parrish
@@ -321,9 +323,9 @@ Make a static or kinetic typographic piece.
 
 ### 7:15pm 📖 Class Reading Discussion 
 
-### 7:45pm 👩🏻‍💻 Typography in Animation 
-- Development of typographical technologies
+### 7:45pm 👩🏻‍💻 Inspirational Artists
 - Excerpt from *Visual Grammar* by Christian Leborg
+- Inspirational contemporary artists and designers
 
 *~ break ~*
 ### 8:30pm 👨🏻‍💻 Technical Demo
@@ -335,8 +337,8 @@ Make a static or kinetic typographic piece.
 
 	
 ## ✏️ Week 5 Homework
-### Readings: 
-* [TyPrograms: The Shaped Typography of Computer Programs](https://nan.xyz/txt/typrograms/) by Marcus Leis Allion
+### (Not Required) Readings: 
+* [The Hacker Aesthetic of Minimalist Code](https://hyperallergic.com/566816/the-hacker-aesthetic-of-minimalist-code/) by Daniel Temkin
 * [Materials for Computer People](https://www.behance.net/99u?title=kelli-anderson--materials-for-computer-people) by Kelli Anderson
 
 ### Optional Readings:
@@ -351,6 +353,13 @@ Make a static or kinetic typographic piece.
 
 ***
 ## General Resources
+
+### Shaders
+For image-processing heavy operations like these, using the GPU as opposed to the CPU is a lot faster. You can do this via shaders! The downside is that shaders require a language of their own called GLSL, but is worth tackling if this is in your interest.
+
+* [P5.js Shader Tutorial Series](https://itp-xstory.github.io/p5js-shaders/#/)
+* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
+* [Book of Shaders](https://thebookofshaders.com)
 
 ### Accessibility
 * If your project is intended for people to interact with, check out [Designing for accessibility is not that hard](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94) by Pablo Stanley. For us, this might mean things like:
