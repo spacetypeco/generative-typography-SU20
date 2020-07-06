@@ -337,6 +337,8 @@ Create a Glitch-Aesthetic inspired piece.
 
 	
 ## ✏️ Week 5 Homework
+You will be working on a mini-project of your own over the next two weeks. For next week, please come prepared to share your idea and a draft (so that you can ask for any technical help if need be :-))
+
 ### (Not Required) Readings: 
 * [The Hacker Aesthetic of Minimalist Code](https://hyperallergic.com/566816/the-hacker-aesthetic-of-minimalist-code/) by Daniel Temkin
 * [Materials for Computer People](https://www.behance.net/99u?title=kelli-anderson--materials-for-computer-people) by Kelli Anderson
