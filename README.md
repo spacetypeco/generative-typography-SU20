@@ -368,3 +368,9 @@ For image-processing heavy operations like these, using the GPU as opposed to th
 	* Adding enough color contrast
 	* Adding alt-text if applicable
 	* Supporting keyboard navigation
+
+***
+## Office Hours
+You can sign up for office hours in 20 minute slots. They're typically available every Friday and Sunday. Let us know if all the slots are taken or timezone doesn't work for you and we can figure out an alternative time slot!
+
+* [Office Hours Signup Link](https://calendly.com/lynneyun/generative-type-office-hours)
