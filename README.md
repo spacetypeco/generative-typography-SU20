@@ -57,7 +57,7 @@ Subject to adjustment.
 |3|[Transformation](#section-3-transformation)|[Lecture Video](https://youtu.be/-sRZFiCLNX0) <br> [Lecture Slides](Slides/Generative_Type_Week3.pdf) <br> [Technical Tutorial](tutorials/3-transformation.md) <br> [Class Code Q&A and Extras](https://youtu.be/-xR84AyBcXs) | Static or kinetic typography composition<br> + Readings
 |4|[Glitch Art](#section-4-glitch-art)|[Lecture Video](https://youtu.be/lTgDiNkhG9k) <br> [Lecture Slides](Slides/Generative_Type_Week4.pdf) <br> [Technical Demo Video](https://youtu.be/578Faw9lJwE) <br> [Technical Tutorial](tutorials/4-glitching.md)|Glitch Art-inspired composition<br> + Readings
 |5|[Movement and Animation](#section-5-movement-and-animation)| [Lecture Video](https://youtu.be/jLs5TTfoWs0) <br>[Lecture Slides](Slides/Generative_Type_Week5.pdf) <br>[Technical Demo Tuesday Video](https://youtu.be/d-uWTqzBh04)<br> [Technical Demo Thursday Video](https://youtu.be/6q0oEDJG55o)|Mini Project Ideation
-|6|Mini Project - Ideation and Planning|[Tuesday Class Tech demo & QA](https://youtu.be/1miWRt6Nvt0)|Mini Project Draft
+|6|Mini Project - Ideation and Planning|[Tuesday Class Tech demo & QA](https://youtu.be/1miWRt6Nvt0) <br> [Thursday Class Tech demo & QA](https://youtu.be/l-dkPJMEVsU)|Mini Project Draft
 |7|Student Presentations <br> Special Guest: [Peter Cho](https://pcho.net/) ||Final Project Ideation
 |8|Final Project - Ideation and Planning||Final Project Draft
 |9|Final Project - Troubleshooting||Final Project Progress
