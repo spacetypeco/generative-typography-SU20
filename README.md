@@ -59,7 +59,7 @@ Subject to adjustment.
 |5|[Movement and Animation](#section-5-movement-and-animation)| [Lecture Video](https://youtu.be/jLs5TTfoWs0) <br>[Lecture Slides](Slides/Generative_Type_Week5.pdf) <br>[Technical Demo Tuesday Video](https://youtu.be/d-uWTqzBh04)<br> [Technical Demo Thursday Video](https://youtu.be/6q0oEDJG55o)|Mini Project Ideation
 |6|Mini Project - Ideation and Planning|[Tuesday Class Tech demo & QA](https://youtu.be/1miWRt6Nvt0) <br> [Thursday Class Tech demo & QA](https://youtu.be/l-dkPJMEVsU)|Mini Project Draft
 |7|Student Presentations <br> Special Guest: [Peter Cho](https://pcho.net/) ||Final Project Ideation
-|8|Final Project - Ideation and Planning|[Tuesday Class Tech demo & QA](https://youtu.be/m6Fch_WEenA) |Final Project Draft
+|8|Final Project - Ideation and Planning|[Tuesday Class Tech demo & QA](https://youtu.be/m6Fch_WEenA) <br> [Thursday Class Tech demo & QA](https://youtu.be/DhsmskImQVw) |Final Project Draft
 |9|Final Project - Troubleshooting||Final Project Progress
 |10|Student Presentations||🎉
 
