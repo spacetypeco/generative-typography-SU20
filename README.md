@@ -374,3 +374,18 @@ For image-processing heavy operations like these, using the GPU as opposed to th
 You can sign up for office hours in 20 minute slots. They're typically available every Friday and Sunday. Let us know if all the slots are taken or timezone doesn't work for you and we can figure out an alternative time slot!
 
 * [Office Hours Signup Link](https://calendly.com/lynneyun/generative-type-office-hours)
+
+***
+
+## What Should I Do After the Course?
+Pretty much whatever is on your radar of interest! :-) Here are some rabbit holes I would recommend...
+
+* **[Nature of Code](https://natureofcode.com/book/)** by Dan Shiffman
+	* [Youtube Series](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM) are also available!
+* **Shaders**
+	* [Book of Shaders](https://thebookofshaders.com)
+	* [P5.js Shader Tutorial Series](https://itp-xstory.github.io/p5js-shaders/#/)
+	* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
+* **[TouchDesigner](https://derivative.ca/)**
+	* [TouchDesigner Tutorial List](https://derivative.ca/UserGuide/Tutorials)
+* **[Unity](https://unity.com/)**
