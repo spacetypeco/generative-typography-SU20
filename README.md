@@ -339,6 +339,9 @@ Create a Glitch-Aesthetic inspired piece.
 ## ✏️ Week 5 Homework
 You will be working on a mini-project of your own over the next two weeks. For next week, please come prepared to share your idea and a draft (so that you can ask for any technical help if need be :-))
 
+### Readings: 
+* [So You Want to Build a Generator](https://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator)
+
 ### (Not Required) Readings: 
 * [The Hacker Aesthetic of Minimalist Code](https://hyperallergic.com/566816/the-hacker-aesthetic-of-minimalist-code/) by Daniel Temkin
 * [Materials for Computer People](https://www.behance.net/99u?title=kelli-anderson--materials-for-computer-people) by Kelli Anderson
@@ -347,8 +350,8 @@ You will be working on a mini-project of your own over the next two weeks. For n
 * [We Talked To The Artists Who Made A Pokemon Glitch Zine](https://www.vice.com/en_us/article/vvydw3/we-talked-to-the-artists-who-made-a-pokemon-glitch-zine)
 
 ### Additional Resources
-
-[The Recode Project](http://recodeproject.com/): An Active Archive of Computer Art
+* [Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)
+* [The Recode Project](http://recodeproject.com/): An Active Archive of Computer Art
 
 ### Technical Resources
 [Mathematics of Animation](https://www.youtube.com/watch?v=KbxJWx-ue0U&feature=youtu.be)
@@ -382,10 +385,19 @@ Pretty much whatever is on your radar of interest! :-) Here are some rabbit hole
 
 * **[Nature of Code](https://natureofcode.com/book/)** by Dan Shiffman
 	* [Youtube Series](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM) are also available!
+* **Other Frameworks & Libraries**
+	* [Three.js](https://threejs.org/)
+	* [TouchDesigner](https://derivative.ca/)
+		* [TouchDesigner Tutorial List](https://derivative.ca/UserGuide/Tutorials)
+* **[Unity](https://unity.com/)**
 * **Shaders**
 	* [Book of Shaders](https://thebookofshaders.com)
 	* [P5.js Shader Tutorial Series](https://itp-xstory.github.io/p5js-shaders/#/)
 	* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
-* **[TouchDesigner](https://derivative.ca/)**
-	* [TouchDesigner Tutorial List](https://derivative.ca/UserGuide/Tutorials)
-* **[Unity](https://unity.com/)**
+	* [Shader School](https://github.com/stackgl/shader-school)
+* **Online Courses (at least due to COVID-19)**
+	* [Anderson Ranch](https://www.andersonranch.org/)
+	* [SFPC](https://sfpc.io/)
+	* [Type@Cooper](http://coopertype.org/)
+* **Conferences**
+	* [EYEO](http://eyeofestival.com/)
