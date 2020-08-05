@@ -396,6 +396,7 @@ Pretty much whatever is on your radar of interest! :-) Here are some rabbit hole
 	* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
 	* [Shader School](https://github.com/stackgl/shader-school)
 * **Online Courses (at least due to COVID-19)**
+	* [School of Ma](http://schoolofma.org/)
 	* [Anderson Ranch](https://www.andersonranch.org/)
 	* [SFPC](https://sfpc.io/)
 	* [Type@Cooper](http://coopertype.org/)
