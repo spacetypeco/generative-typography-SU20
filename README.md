@@ -383,22 +383,34 @@ You can sign up for office hours in 20 minute slots. They're typically available
 ## What Should I Do After the Course?
 Pretty much whatever is on your radar of interest! :-) Here are some rabbit holes I would recommend...
 
+**Video/Tutorial Series**
+
+* [The Power of Mathematical Visualization](https://archive.org/details/ThePowerOfMathematicalVisualization)
+
 * **[Nature of Code](https://natureofcode.com/book/)** by Dan Shiffman
 	* [Youtube Series](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM) are also available!
-* **Other Frameworks & Libraries**
-	* [Three.js](https://threejs.org/)
-	* [TouchDesigner](https://derivative.ca/)
-		* [TouchDesigner Tutorial List](https://derivative.ca/UserGuide/Tutorials)
-* **[Unity](https://unity.com/)**
-* **Shaders**
-	* [Book of Shaders](https://thebookofshaders.com)
-	* [P5.js Shader Tutorial Series](https://itp-xstory.github.io/p5js-shaders/#/)
-	* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
-	* [Shader School](https://github.com/stackgl/shader-school)
-* **Online Courses (at least due to COVID-19)**
-	* [School of Ma](http://schoolofma.org/)
-	* [Anderson Ranch](https://www.andersonranch.org/)
-	* [SFPC](https://sfpc.io/)
-	* [Type@Cooper](http://coopertype.org/)
-* **Conferences**
+	
+**Other Frameworks & Libraries**
+
+* [Three.js](https://threejs.org/)
+* [TouchDesigner](https://derivative.ca/)
+	* [TouchDesigner Tutorial List](https://derivative.ca/UserGuide/Tutorials)
+* [Unity](https://unity.com/)
+
+	
+**Shaders**
+
+* [Book of Shaders](https://thebookofshaders.com)
+* [P5.js Shader Tutorial Series](https://itp-xstory.github.io/p5js-shaders/#/)
+* [P5.js Shader example collection on Github](https://github.com/aferriss/p5jsShaderExamples)
+* [Shader School](https://github.com/stackgl/shader-school)
+
+**Online Courses (at least due to COVID-19)**
+
+* [School of Ma](http://schoolofma.org/)
+* [Anderson Ranch](https://www.andersonranch.org/)
+* [SFPC](https://sfpc.io/)
+* [Type@Cooper](http://coopertype.org/)
+
+**Conferences**
 	* [EYEO](http://eyeofestival.com/)
